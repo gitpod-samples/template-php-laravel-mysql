@@ -9,6 +9,14 @@ class Vuelo extends Model
 {
     use HasFactory;
     public $timestamps = false;
+    protected $guarded = ['id'];
+
+
+
+
+
+    
+    /*
     public function pilotos(){
         return $this->belongsTo(Piloto::class);
     }
@@ -16,4 +24,5 @@ class Vuelo extends Model
     public function pasajes() {
         return $this->hasMany(Pasaje::class);
     }
+    */
 }

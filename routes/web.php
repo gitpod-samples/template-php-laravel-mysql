@@ -27,7 +27,14 @@ Route::resource('/vuelos', VueloController::class);
 Route::resource('/pilotos', PilotoController::class);
 Route::resource('/pasajes', PasajeController::class);
 
+
+
+
+
 Route::get('/pilotos.restore', [PilotoController::class,'restore'])->name('pilotos.restore');
 Route::get('/pilotos.onlyTrashed', [PilotoController::class,'onlyTrashed'])->name('pilotos.onlyTrashed');
+
+Route::get('/vuelos.restore', [VueloController::class,'restore'])->name('vuelos.restore');
+Route::get('/vuelos.onlyTrashed', [VueloController::class,'onlyTrashed'])->name('vuelos.onlyTrashed');
 
 
