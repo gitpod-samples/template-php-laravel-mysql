@@ -18,16 +18,32 @@
             </style>
 
             <style>
+
+                img {
+                    width: 50%;
+                    height: 50%;
+                }
+            </style>
+
+            <style>
                 body {
                     font-family: 'Nunito', sans-serif;
                 }
             </style>
         </head>
         <body class="antialiased">
+
+            <div class="container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Binter_logo.svg/2560px-Binter_logo.svg.png" class="rounded mx-auto d-block">
+            </div>
+
+
             <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+
                 <a href=" {{url('/vuelos')}}" class="btn btn-primary mx-2">Lista de Vuelos</a>
                 
                 <a href=" {{url('/pilotos')}}" class="btn btn-primary">Lista de Pilotos</a>
+
             </div>
         </body>
     </html>

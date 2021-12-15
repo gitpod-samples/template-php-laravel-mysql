@@ -38,50 +38,44 @@ class VueloController extends Controller
         return redirect()->route('vuelos.index');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Vuelo  $vuelo
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Vuelo $vuelo)
+   //$vuelo
+    public function show($vuelo)
     {
-        //
+        $vuelo = Vuelo::findOrFail($vuelo);
+
+        return view ('vuelos.show')->with([
+            'vuelo' => $vuelo,
+        ]);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Vuelo  $vuelo
-     * @return \Illuminate\Http\Response
-     */
+   
     public function edit(Vuelo $vuelo)
     {
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Vuelo  $vuelo
-     * @return \Illuminate\Http\Response
-     */
+   
     public function update(Request $request, Vuelo $vuelo)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Vuelo  $vuelo
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Vuelo $vuelo)
+   
+
+    //$id
+    public function destroy($id)
     {
-        //
+        
+        //Si va con este:
+        Vuelo::find($id)->delete();
+        return redirect()->route('vuelos.index');
+        
+        /*Vuelo::find($id)->delete($id);
+        return view('vuelos.index');*/
     }
+
+
+
 
 
     public function restore()    /*Si queremos que se restaure un solo usuario se pasaría un parámetro como el ($id)*/   

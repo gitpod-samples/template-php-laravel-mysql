@@ -1,0 +1,51 @@
+BOTON QUE PROBÉ EN AJAX
+<meta name="csrf-token" content="{{ csrf_token() }}"></meta>
+$(".deleteRecord").click(function(){
+    var id = $(this).data("id");
+    var token = $("meta[name='csrf-token']").attr("content");
+        $.ajax(
+        {
+            url: "/vuelos/"+id,
+            type: 'DELETE',
+            data: {
+                "id": id,
+                "_token": token,
+            },
+            success: function (){
+                console.log("it Works");
+            }
+        });
+   
+    });
+    
+        
+        $(".borrar").click(function(){
+            const tr=$(this).closest("tr"); //guardamos el tr completo
+            const id=tr.data("id");
+            Swal.fire({
+                title: 'Â¿seguro que quieres borrarlo?',
+                showCancelButton: true,
+                confirmButtonText: 'Borrar',
+                cancelButtonText: `Cancelar`,
+            }).then((result) => {
+            /* Read more about isConfirmed, isDenied below */
+                    /*if (result.isConfirmed) {
+                        $.ajax({
+                            method: "POST",
+                            url   : "{{url('/vuelos')}}/"+id,
+                            data  : {
+                                _token: "{{csrf_token()}}",
+                                _method: "delete",
+                            },
+                            success: function(){
+                                tr.fadeOut();
+                            }
+                        });
+                    } 
+                })
+            });
+
+        } );
+    */
+
+<td><button class="deleteRecord" data-id="{{ $vuelo->id }}">Delete Record</button></td>

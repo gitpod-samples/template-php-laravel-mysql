@@ -27,7 +27,7 @@ Route::resource('/vuelos', VueloController::class);
 Route::resource('/pilotos', PilotoController::class);
 Route::resource('/pasajes', PasajeController::class);
 
-
+Route::delete('/vuelos/{id}', 'VueloController@destroy')->name('vuelos.destroy');
 
 
 

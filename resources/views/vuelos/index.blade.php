@@ -3,7 +3,6 @@
 
 
 @section("contenido")
-
     <script>
     $(document).ready(function() {
             $('#tabla_vuelos').DataTable( {
