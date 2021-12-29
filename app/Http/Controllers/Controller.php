@@ -10,4 +10,8 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    public function imprimir(){
+        $pdf = \PDF::loadView('pdfs.pdf');
+        return $pdf->download('impresion.pdf');
+   }
 }
