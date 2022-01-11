@@ -1,0 +1,223 @@
+/**
+ * Width >= 1366px
+ */
+
+@include media(wide) {
+		/* Woocommerce Styles */
+	.woocommerce-shorting-wrapper {
+		margin: 0 0 49px;
+	}
+
+	ul.products li.product {
+		margin: 0 auto 42px;
+	}
+
+	.woocommerce-message,
+	.woocommerce-info,
+	.woocommerce-error,
+	.woocommerce-noreviews,
+	p.no-comments {
+		margin-bottom: 2.882352941176471em;
+	}
+
+	table.shop_table_responsive tr td {
+		padding: 14px 28px;
+	}
+
+	.woocommerce-tabs ul.tabs {
+		margin: 63px 0 0
+	}
+
+	.woocommerce-pagination {
+		margin-top: 7px;
+	}/* Woocommerce Styles End */
+
+	#primary-search-wrapper > .social-navigation {
+ 		display: block;
+ 	}
+
+	.comment-respond,
+	.wpcf7 {
+		padding: 56px;
+	}
+
+	#footer-menu-section .wrapper {
+		@include flex;
+		align-items: center;
+	}
+
+	h1,
+	.page-title,
+	body:not(.home) .header-media .entry-title,
+	.stats-section:not(.style-three) .sub-title {
+		font-size: 49px;
+		font-size: 3.0625rem;
+	}
+
+	h2 {
+		font-size: 43px;
+		font-size: 2.6875rem;
+	}
+
+	h3 {
+		font-size: 32px;
+		font-size: 2rem;
+	}
+
+	h4 {
+		font-size: 26px;
+		font-size: 1.635rem;
+	}
+
+	.section {
+		padding: 77px 0 35px 0;
+	}
+
+    .home .site-content {
+        padding: 77px 0 0 0;
+    }
+
+    .header-media + .section.no-section-heading,
+    #feature-slider-section + .section.no-section-heading {
+        padding-top: 120px;
+    }
+
+    #promotion-section {
+        padding: 120px 0;
+    }
+
+	.hero-content-wrapper .entry-container {
+		padding: 49px 0 49px 84px;
+	}
+
+	.content-align-left .hero-content-wrapper .entry-container {
+		padding: 0 84px 0 0;
+	}
+
+	#gallery-section .tiled-gallery .tiled-gallery-item a:after {
+		font-size: 20px;
+		font-size: 1.25rem;
+	    height: 50px;
+	    padding: 15px;
+	    width: 50px;
+	}
+
+    #sticky-playlist-section .mejs-sticky-playlist-container {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 1 75%;
+	    flex: 0 1 75%;
+	}
+
+	.playlist-content-wrapper .entry-container {
+		padding: 0 0 0 63px;
+	}
+
+	.app-section .entry-container {
+	    padding: 70px 50px;
+	}
+
+	    .events-section.single-layout .date-week-day  {
+        font-size: 56px;
+        font-size: 3.5rem;
+    }
+
+    #countdown-section .section-content-wrapper .entry-summary,
+	#countdown-section .section-content-wrapper .entry-content {
+	    margin-top: 15px;
+	}
+
+    #countdown-section .entry-container {
+        padding: 140px 50px 120px 50px;
+    }
+
+    .category-content-section .entry-container {
+	    bottom: 21px;
+	    left: 21px;
+	    right: 21px;
+	    width: calc(100% - 42px);
+	}
+
+    .view-more .button,
+    .header-media .more-link .readmore,
+    #feature-slider-section .more-link .readmore,
+    .hero-section .more-link .readmore,
+    #promotion-section .more-link .readmore,
+    .pricing-section .more-link .readmore,
+    .app-section .more-link .readmore,
+    #content #infinite-handle span button,
+    nav.navigation.posts-navigation .nav-links a,
+    .catch-instagram-feed-gallery-widget-wrapper .button,
+    #footer-newsletter .ewnewsletter .hentry form input[type="submit"],
+    .pagination .page-numbers.prev,
+	.pagination .page-numbers.next {
+        padding: 18px 40px;
+    }
+
+
+    .home .archive-posts-wrapper .entry-title,
+    #footer-instagram .widget-title,
+    .contact-content-wrapper .contact-us-form .entry-title,
+    .section-title,
+    .home .header-media .entry-title,
+    #feature-slider-section .entry-title {
+        font-size: 49px;
+        font-size: 3.0625rem;
+    }
+
+    .sidebar .widget {
+        padding: 35px;
+    }
+
+    .section-heading-wrapper,
+    #footer-instagram .widget-title {
+        padding-bottom: 49px;
+    }
+
+    #feature-slider-section .owl-carousel .owl-dots button {
+        margin: 0 16px;
+    }
+
+    #feature-slider-section .owl-carousel .owl-dots,
+    .sticky-playlist-enabled.scrolled #feature-slider-section .owl-carousel .owl-dots {
+        bottom: 56px;
+    }
+
+    .header-media .scroll-down,
+    #feature-slider-section .scroll-down {
+        bottom: 42px;
+        right: 60px;
+    }
+
+    body.sticky-playlist-enabled.scrolled #page .header-media .scroll-down,
+    body.sticky-playlist-enabled.scrolled #feature-slider-section .scroll-down {
+        bottom: 42px;
+    }
+
+    .custom-header-content .site-header-logo img,
+    #feature-slider-section .slider-image-logo img {
+        max-width: 400px;
+    }
+
+    .stats-section.style-three .sub-title {
+        font-size: 70px;
+        font-size: 4.375rem;
+    }
+
+    .team-tab li span {
+	    font-size: 32px;
+	    font-size: 2rem;
+	}
+
+	.team-tab li sup {
+	    font-size: 22px;
+	    font-size: 1.375rem;
+	}
+
+	body .wp-playlist {
+		padding: 35px;
+	}
+
+    .section.no-section-heading {
+        padding-top: 77px;
+    }
+}

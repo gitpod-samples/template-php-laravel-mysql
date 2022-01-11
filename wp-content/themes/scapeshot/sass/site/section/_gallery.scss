@@ -1,0 +1,97 @@
+/**
+ * 14.8 - Gallery Section
+ */
+#gallery-section .tiled-gallery .tiled-gallery-item a:before {
+    background: rgba(0,0,0,0.65);
+}
+
+#gallery-section .tiled-gallery .tiled-gallery-item a:before {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#gallery-section .tiled-gallery .tiled-gallery-item a:before {
+    opacity: 0;
+}
+
+#gallery-section .tiled-gallery .tiled-gallery-item:hover a:before,
+#gallery-section .tiled-gallery .tiled-gallery-item:focus a:before {
+    opacity: 0.75;
+}
+
+#gallery-section .tiled-gallery .tiled-gallery-item:hover a:after,
+#gallery-section .tiled-gallery .tiled-gallery-item:focus a:after {
+    opacity: 1;
+}
+
+#gallery-section .entry-content > *:not(div) {
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+}
+
+#gallery-section .entry-footer {
+    display: block;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    z-index: 199;
+}
+
+#gallery-section .entry-footer .edit-link a {
+    padding: 7px 14px;
+    text-decoration: none;
+}
+
+#gallery-section .gallery-item {
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+
+    .gallery-caption {
+        background: #333;
+        bottom: 0;
+        position: absolute;
+        padding: 18px;
+        transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        transition: 0.3s ease-in-out;
+        width: 100%;
+    }
+
+    &:hover .gallery-caption {
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+    .gallery-icon {
+        transition: 0.3s ease-in-out;
+    }
+
+    &:hover .gallery-icon {
+        transform: translateY(-70px);
+        -moz-transform: translateY(-70px);
+        -o-transform: translateY(-70px);
+        -webkit-transform: translateY(-70px);
+    }
+}
+
+#gallery-section .section-content-wrapper .entry-content {
+    margin: 0;
+}
+
+.gallery-caption {
+    text-align: left;
+}

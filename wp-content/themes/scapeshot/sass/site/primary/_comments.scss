@@ -1,0 +1,318 @@
+/**
+ * 12.4 - Comments
+ */
+
+.comments-area {
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.comment-list {
+    list-style: none;
+    margin: 0;
+}
+
+.comment-list article,
+.comment-list .pingback,
+.comment-list .trackback {
+    padding: 1.75em 0;
+}
+
+.comments-area .comment-list > li:first-child > article,
+.comments-area .comment-list > li.pingback:first-child,
+.comments-area .comment-list > li.trackback:first-child {
+    border-top: none;
+}
+
+.comment-list article + .comment-respond {
+    margin-bottom: 1.75em;
+}
+
+.comment-list .children {
+    list-style: none;
+    margin: 0;
+}
+
+.comment-body {
+    border-top: 1px solid #333333;
+    padding-left: 2.5em;
+}
+
+.comment-author {
+    float: left;
+    margin: 0 1.5em 1.5em 0;
+}
+
+.comment-container {
+    overflow: hidden;
+}
+
+.comment-author a {
+    text-decoration: none;
+}
+
+.comment-author .avatar {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+
+.comment-meta svg {
+    display: none;
+}
+
+.comment-meta .edit-link,
+.pingback .edit-link {
+    display: inline-block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.6153846154;
+}
+
+.comment-meta {
+    margin-bottom: 21px;
+}
+
+.comment-content ul,
+.comment-content ol {
+    margin: 0 0 1.75em 1.5em;
+}
+
+.comment-content li > ul,
+.comment-content li > ol {
+    margin-bottom: 0;
+}
+
+.comment-reply-link {
+    display: inline-block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+
+.comment-reply-link:hover,
+.comment-reply-link:focus {
+    outline: 0;
+}
+
+.no-comments {
+    margin: 0;
+    padding-top: 1.75em;
+}
+
+.comment-navigation + .no-comments {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.form-allowed-tags code {
+    font-family: Inconsolata, monospace;
+}
+
+.form-submit {
+    margin: 0;
+}
+
+.author-name {
+    text-transform: capitalize;
+}
+
+.comment-reply-title small a {
+    border: 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    height: 32px;
+    overflow: hidden;
+    width: 26px;
+    position: absolute;
+    right:  14px;
+    top: 14px;
+}
+
+#cancel-comment-reply-link:before {
+    content: "\2715";
+}
+
+.comment-respond,
+.wpcf7 {
+    margin: 0 auto;
+    max-width: 760px;
+    padding: 35px;
+    position: relative;
+}
+
+.comment-reply-title {
+    text-align: center;
+}
+
+.comment-content a {
+    word-wrap: break-word;
+}
+
+.bypostauthor {
+    display: block;
+}
+
+.comment-notes {
+    font-style: italic;
+}
+
+.comment-meta .author-name {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.comment-meta a {
+    text-decoration: none;
+}
+
+.comment-meta a:hover,
+.comment-meta a:focus {
+    text-decoration: underline;
+}
+
+.comment-meta .comment-permalink {
+    display: inline-block;
+}
+
+/*Style for Comment form and Contact form*/
+
+.comment-respond input[type="text"],
+.comment-respond input[type="email"],
+.comment-respond input[type="url"],
+.comment-respond input[type="password"],
+.comment-respond input[type="search"],
+.comment-respond input[type="number"],
+.comment-respond input[type="tel"],
+.comment-respond input[type="range"],
+.comment-respond input[type="date"],
+.comment-respond input[type="month"],
+.comment-respond input[type="week"],
+.comment-respond input[type="time"],
+.comment-respond input[type="datetime"],
+.comment-respond input[type="datetime-local"],
+.comment-respond input[type="color"],
+.comment-respond textarea,
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="password"],
+.wpcf7 input[type="search"],
+.wpcf7 input[type="number"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="range"],
+.wpcf7 input[type="date"],
+.wpcf7 input[type="month"],
+.wpcf7 input[type="week"],
+.wpcf7 input[type="time"],
+.wpcf7 input[type="datetime"],
+.wpcf7 input[type="datetime-local"],
+.wpcf7 input[type="color"],
+.wpcf7 textarea {
+    background-color: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding: 0 0 7px 0;
+}
+
+.comment-respond textarea,
+.wpcf7 textarea  {
+    max-height: 80px;
+}
+
+/* Contact Form 7 and Comment Respond Form Focus Effect */
+
+.comment-form > p {
+    position: relative;
+}
+
+.wpcf7-form-control-wrap {
+    display: block;
+}
+
+.wpcf7-form-control ~ .focus-border,
+.comment-form > p > input ~ .focus-border,
+.comment-form > p > textarea ~ .focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    transition: 0.6s;
+}
+
+textarea.wpcf7-form-control ~ .focus-border {
+    bottom: 2px;
+}
+
+.comment-form > p > textarea ~ .focus-border {
+    bottom: 3px;
+}
+
+.comment-form > p.logged-in-as + .comment-form-comment > textarea ~ .focus-border {
+    bottom: 4px;
+}
+
+.wpcf7-form-control:focus ~ .focus-border,
+.comment-form > p > input:focus ~ .focus-border,
+.comment-form > p > textarea:focus ~ .focus-border {
+    width: 100%;
+    transition: 0.6s;
+    left: 0;
+}
+
+
+/* Search Focus Effect*/
+
+.search-form .search-field ~ .focus-border:before,
+.search-form .search-field ~ .focus-border:after,
+.search-form .search-field ~ .focus-border i:before,
+.search-form .search-field ~ .focus-border i:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.search-form .search-field ~ .focus-border:before,
+.search-form .search-field ~ .focus-border:after {
+    width: 0;
+    height: 1px;
+    transition: 0.4s;
+}
+
+.search-form .search-field ~ .focus-border:after,
+.search-form .search-field ~ .focus-border i:after {
+    bottom: 0;
+    left: auto;
+    right: 0;
+    top: auto;
+}
+
+.search-form .search-field ~ .focus-border i:before,
+.search-form .search-field ~ .focus-border i:after {
+    width: 1px;
+    height: 0;
+    transition: 0.6s;
+}
+
+.search-form .search-field:focus ~ .focus-border:before,
+.search-form .search-field:focus ~ .focus-border:after {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.search-form .search-field:focus ~ .focus-border i:before,
+.search-form .search-field:focus ~ .focus-border i:after {
+    height: 100%;
+    transition: 0.6s;
+}

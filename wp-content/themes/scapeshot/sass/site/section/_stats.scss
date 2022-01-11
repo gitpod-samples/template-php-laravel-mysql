@@ -1,0 +1,82 @@
+/**
+ * 14.10 - Stats
+ */
+
+#stats-section.style-one .stats-content-area .section-heading-wrapper {
+    margin-left: 0;
+}
+
+.stats-content-wrapper .entry-header .entry-meta {
+    line-height: 1.62;
+    letter-spacing: 2px;
+    margin-top: 14px;
+    text-transform: uppercase;
+}
+
+#stats-section.style-one .hentry {
+    padding: 0;
+}
+
+.stats-section.style-one .hentry {
+    padding: 0 15px;
+}
+
+#stats-section.style-two .hentry,
+#stats-section.style-three .hentry {
+    text-align: center;
+}
+
+.stats-section.style-one .section-content-wrapper.stats-content-wrapper .post-thumbnail,
+.stats-section.style-one .section-content-wrapper.stats-content-wrapper .post-thumbnail a img {
+    margin-left: 0;
+}
+
+.stats-content-wrapper .entry-container {
+    overflow: hidden;
+}
+
+.stats-content-wrapper .entry-summary,
+.stats-content-wrapper .entry-content {
+    margin-top: 0;
+    margin-left: 14px;
+}
+
+.stats-section.style-one .stats-content-area {
+    padding: 0 15px;
+}
+
+#stats-section.style-one .stats-content-area .section-heading-wrapper,
+#stats-section.style-one .stats-content-area .section-content-wrapper {
+    width: 100%;
+}
+
+#stats-section.style-one .section-content-wrapper.stats-content-wrapper .hentry-inner {
+    display: flex;
+}
+
+.stats-content-wrapper .hentry-inner .sub-title {
+    margin-bottom: 21px;
+}
+
+.stats-section.style-two .hentry-inner .sub-title {
+    font-weight: 600;
+}
+
+#stats-section.style-one .stats-content-wrapper .sub-title {
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-right: 30px;
+    width: 22%;
+}
+
+#stats-section.style-one .stats-content-wrapper .hentry-inner .entry-container-wrap {
+    width: 78%;
+}
+
+.stats-section.style-three .sub-title {
+    font-size: 40px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.17;
+}
+

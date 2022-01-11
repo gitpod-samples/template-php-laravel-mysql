@@ -1,0 +1,10 @@
+/**
+ * Width >= 601px
+ */
+
+@include media(mobile-admin-bar) {
+    .admin-bar .fullscreen-menu-inside-wrapper,
+    .admin-bar.scrolled .fullscreen-menu-inside-wrapper {
+        top: 46px;
+    }
+}

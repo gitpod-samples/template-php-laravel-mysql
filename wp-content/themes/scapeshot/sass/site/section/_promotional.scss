@@ -1,0 +1,64 @@
+/**
+ * 14.7 - Promotional Headline
+ */
+
+.promotion-section {
+    border: none;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.promotion-section .hentry {
+    position: initial;
+    margin: 0;
+}
+
+.post-thumbnail-background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.promotion-section .post-thumbnail-background {
+    z-index: 1;
+}
+
+.promotion-section .content-wrapper {
+    padding: 0 30px;
+}
+
+.promotion-section .entry-container {
+    max-width: 720px;
+    position: relative;
+    z-index: 2;
+}
+
+.promotion-section.content-align-right .entry-container {
+    float: right;
+}
+
+.promotion-section.content-align-center .entry-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promotion-section.style-wedding .post-thumbnail {
+    margin: 0;
+}
+
+.promotion-section.style-wedding .wrapper {
+    max-width: 100%;
+    width: 100%;
+}
+
+#promotion-section.style-wedding {
+    padding: 0;
+}

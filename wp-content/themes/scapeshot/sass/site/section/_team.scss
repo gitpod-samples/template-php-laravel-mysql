@@ -1,0 +1,164 @@
+/**
+ * 14.4 - Team Content Section
+ */
+
+.team-content-wrapper .hentry {
+    height: auto;
+}
+
+.team-content-wrapper .hentry-inner {
+    overflow: hidden;
+    position: relative;
+}
+
+.team-content-wrapper .post-thumbnail,
+.team-content-wrapper .entry-title,
+.team-content-wrapper .entry-meta {
+    margin: 0;
+}
+
+.team-content-wrapper .entry-title {
+    margin: 0;
+}
+
+#team-content-section.style-one .team-content-wrapper .entry-container {
+    position: absolute;
+    display: block;
+    padding: 21px;
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    -moz-transform: translate(0%, 100%);
+    -ms-transform: translate(0%, 100%);
+    -webkit-transform: translate(0%, 100%);
+    -o-transform: translate(0%, 100%);
+    transform: translate(0%, 100%);
+    text-align: center;
+}
+
+#team-content-section.style-one .team-content-wrapper .hentry-inner:hover .entry-container,
+#team-content-section.style-one .team-content-wrapper .hentry-inner:focus .entry-container {
+    -moz-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+}
+
+.team-content-wrapper .entry-summary,
+.team-content-wrapper .entry-content {
+    margin: 14px 0 0;
+}
+
+.team-content-wrapper .entry-meta {
+    line-height: 1.75;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+#testimonial-content-section .entry-meta,
+.team-content-wrapper .entry-title + .entry-meta {
+    margin: 7px 0 0 0;
+}
+
+.team-content-wrapper .artist-social-profile {
+    margin-top: 7px;
+}
+
+.team-content-wrapper .button {
+    border: 0;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    padding-right: 14px;
+    text-transform: capitalize;
+}
+
+#team-content-section .wrapper {
+    position: relative;
+}
+
+
+.team-content-wrapper.section-content-wrapper .post-thumbnail a img {
+    width: 100%;
+}
+
+#team-content-section.style-one .team-content-wrapper.section-content-wrapper .post-thumbnail {
+    margin: 0;
+    transition: 0.6s ease-in-out;
+}
+
+.entry-meta .job-label,
+.entry-meta .position {
+    letter-spacing: 0.5px;
+}
+
+
+/* Style-two */
+
+.team-tab .ui-tabs-nav {
+    margin: 0;
+    margin-bottom: 21px;
+    transition: 0.3s;
+}
+
+.team-tab .ui-tabs-nav,
+.team-tab .ui-tabs-panel {
+    padding: 0 15px;    
+}
+
+.team-tab ul li::marker {
+    content: none;
+}
+
+.team-tab .ui-tabs-nav li a {
+    padding: 21px;
+    display: block;
+}
+
+.team-tab .ui-tabs-nav li:not(:first-child) {
+    border-top: 1px solid;
+}
+
+.team-tab li span {
+    display: inline-block;
+    font-size: 28px;
+    font-size: 1.75rem;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+}
+
+.team-tab li sup {
+    display: inline-block;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    padding-right: 14px;
+    max-width: 65px;
+}
+
+#team-content-section.style-two .team-tab .hentry {
+    padding: 0;
+    width: 100%;
+}
+
+#team-content-section.style-two .team-content-wrapper .entry-container {
+    padding: 0;
+}
+
+#team-content-section.style-two .artist-social-profile {
+  position: absolute;
+  bottom: 21px;
+  right: 21px;
+}

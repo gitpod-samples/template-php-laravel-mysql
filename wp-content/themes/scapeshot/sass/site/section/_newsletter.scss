@@ -1,0 +1,85 @@
+
+
+#footer-newsletter .hentry.ew-newsletter-wrap.newsletter-action.custom {
+    input[type="text"] {
+        margin-bottom: 30px;
+
+        @include media(mobile_horizontal) {
+            margin-right: 4%;
+            width: 48%;
+        }
+    }
+
+    input#subbox2 {
+        margin-right: 0;
+    }
+}
+
+#footer-newsletter {
+    .ewnewsletter {
+        .hentry {
+            form {
+                align-items: unset;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: unset;
+                margin: 0 auto;
+                max-width: 680px;
+                position: relative;
+                @include media(mobile) {
+                    flex-direction: row;
+                }
+                input {
+                    border: 1px solid transparent;
+                    @include border(0);
+                    @include media(mobile) {
+                        margin-top: 0;
+                    }
+                }
+                input[type="submit"] {
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+                input[type] {
+                    box-shadow: 11px 3px 15px 0 rgba(0, 0, 0, 0.05);
+                    -moz-box-shadow: 11px 3px 15px 0 rgba(0, 0, 0, 0.05);
+                    -webkit-box-shadow: 11px 3px 15px 0 rgba(0, 0, 0, 0.05);
+                    padding: 18px;
+                }
+            }
+        }
+    }
+}
+
+#footer-newsletter {
+    padding: 0;
+}
+
+#footer-newsletter input[type="submit"] {
+    font-weight: 600;
+}
+
+#footer-newsletter .ew-newsletter {
+    margin-bottom: 0;
+    padding: 28px 35px;
+    padding-bottom: 45px;
+
+    @include media(desktop) {
+        padding: 47px;
+        padding-bottom: 38px;
+    }
+    @include media(wide) {
+        padding: 63px;
+    }
+}
+
+
+.before-text,
+.after-text {
+    text-align: center;
+}
+
+#footer-newsletter .ewnewsletter .hentry form input[type="submit"] {
+    margin-top: 21px;
+}

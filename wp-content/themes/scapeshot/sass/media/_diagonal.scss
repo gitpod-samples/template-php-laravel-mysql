@@ -1,0 +1,575 @@
+/**
+ * Width >= 1600px
+ */
+
+@include media(diagonal) {
+    /* Woocommerce Styles */
+    .product-content-section .product-content-wrapper .products.columns-1,
+    .product-content-section .product-content-wrapper .products.columns-2,
+    .product-content-section .product-content-wrapper .products.columns-3,
+    .product-content-section .product-content-wrapper .products.columns-4  {
+        padding: 0 40px;
+    }
+
+    .woocommerce-tabs .panel h2:first-of-type {
+        font-size: 24px;
+        font-size: 1.5rem;
+        margin-bottom: 21px;
+    }
+
+    .woocommerce-tabs ul.tabs {
+        margin: 70px 0 0
+    }
+
+    .woocommerce-pagination {
+        margin-top: 14px;
+    }/* Woocommerce Styles End */
+
+    body,
+    .woocommerce-ordering .orderby {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    .view-more .button,
+    .header-media .more-link .readmore,
+    #feature-slider-section .more-link .readmore,
+    .hero-section .more-link .readmore,
+    #promotion-section .more-link .readmore,
+    #content #infinite-handle span button,
+    nav.navigation.posts-navigation .nav-links a,
+    .catch-instagram-feed-gallery-widget-wrapper .button,
+    #footer-newsletter .ewnewsletter .hentry form input[type="submit"],
+    .pagination .page-numbers.prev,
+    .pagination .page-numbers.next {
+        font-size: 20px;
+        font-size: 1.25rem;
+        padding: 22px 48px;
+    }
+
+    h1,
+    .page-title,
+    body:not(.home) .header-media .entry-title,
+    .stats-section:not(.style-three) .sub-title {
+        font-size: 58px;
+        font-size: 3.625rem;
+    }
+
+    h2 {
+        font-size: 49px;
+        font-size: 3.0625rem;
+    }
+
+    h3 {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    h4 {
+        font-size: 28px;
+        font-size: 1.75rem;
+    }
+
+    h5 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .site-content .view-more a {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    .section.no-section-heading {
+        padding-top: 91px;
+    }
+
+    .hero-content-wrapper .entry-container {
+        padding: 56px 0 56px 120px;
+    }
+
+    .entry-header .entry-meta {
+        margin-bottom: 10px;
+    }
+
+    .section-subtitle,
+    .post-wrapper .entry-meta .cat-links,
+    #feature-slider-section .entry-meta {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .post-wrapper .entry-title + .entry-meta {
+        margin-top: 21px;
+    }
+
+    .content-align-left .hero-content-wrapper .entry-container {
+        padding: 0 120px 0 0;
+    }
+
+    .section-heading-wrapper,
+    #footer-instagram .widget-title {
+        padding: 0 60px 63px 60px;
+    }
+
+    .stats-section.no-section-heading .wrapper {
+        padding-top: 0;
+    }
+
+    .section {
+        padding: 91px 0 49px 0;
+    }
+
+    .home .site-content {
+        padding: 91px 0 0 0;
+    }
+
+    body:not(.home) .site-content {
+        padding: 77px 0 28px 0;
+    }
+
+    .header-media + .section.no-section-heading,
+    #feature-slider-section + .section.no-section-heading {
+        padding-top: 140px;
+    }
+
+    #promotion-section {
+        padding: 140px 0;
+    }
+
+    #playlist-section .entry-title span {
+        margin-top: 28px;
+    }
+
+    .playlist-content-wrapper .entry-container {
+        padding: 0 0 0 70px;
+    }
+
+    #sticky-playlist-section .wp-playlist,
+    #sticky-playlist-section .mejs-controls {
+        height: 80px;
+    }
+
+    body .wp-playlist .wp-playlist-current-item img {
+        width: 80px;
+        height: 80px;
+        max-width: 80px;
+    }
+
+    #sticky-playlist-section .wp-playlist .mejs-playpause-button,
+    #sticky-playlist-section .wp-playlist .mejs-previous-button.mejs-previous,
+    #sticky-playlist-section .wp-playlist .mejs-next-button.mejs-next,
+    #sticky-playlist-section .wp-playlist .mejs-container.mejs-container .mejs-toggle-playlist {
+        padding: 30px 40px;
+    }
+
+    #sticky-playlist-section .mejs-controls {
+        padding-right: 40px;
+    }
+
+    #sticky-playlist-section .wp-playlist .mejs-button.mejs-volume-button {
+        padding: 30px 14px 30px 40px;
+    }
+
+    #sticky-playlist-section .wp-playlist .mejs-time {
+        padding: 34px 40px;
+    }
+
+    #sticky-playlist-section .wp-playlist-current-item .wp-playlist-item-title {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+
+    .wp-playlist .wp-playlist-current-item .wp-playlist-item-artist {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .product-container {
+        padding-top: 35px;
+    }
+
+
+    .app-section .entry-container {
+        padding: 91px 60px;
+    }
+
+    .app-section .app-wrap {
+        margin-top: 35px;
+    }
+
+    .events-section .event-button {
+        margin-top: 28px;
+    }
+
+        .events-section.single-layout .hentry {
+        padding-bottom: 42px;
+    }
+
+    .featured-video-section.style-two .entry-meta {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+    
+    .author-description .author-title,
+    .entry-title,
+    ul.products li.product .woocommerce-loop-product__title,
+    .woocommerce-loop-category__title,
+    .featured-video-section.style-two .entry-title,
+    .custom-html-widget h2 {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .sticky-playlist-enabled #page {
+        padding-bottom: 80px;
+    }
+
+    #countdown-section .section-content-wrapper .entry-summary,
+    #countdown-section .section-content-wrapper .entry-content {
+        margin-top: 29px;
+    }
+
+     #countdown-section .entry-container {
+        padding: 140px 60px 120px 60px;
+    }
+
+    #timeline-section .section-content-wrapper:before {
+        height: calc(100% - 70px);
+    }
+
+    #timeline-section .post-thumbnail,
+    #timeline-section .entry-container {
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+
+    #timeline-section .hentry {
+        margin-bottom: 70px;
+    }
+
+    .category-content-section .entry-title {
+        font-size: 22px;
+        font-size: 1.375rem;
+    }
+
+    blockquote {
+        font-size: 22px;
+        font-size: 1.375rem;
+    }
+
+    pre {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    .author-info {
+        padding: 35px;
+    }
+
+    .home .archive-posts-wrapper .entry-title,
+    #footer-instagram .widget-title,
+    .contact-content-wrapper .contact-us-form .entry-title,
+    .section-title,
+    .home .header-media .entry-title,
+    #feature-slider-section .entry-title {
+        font-size: 56px;
+        font-size: 3.5rem;
+    }
+
+    .more-link,
+    .section-content-wrapper .entry-summary,
+    .section-content-wrapper .entry-content,
+    .custom-header-content .site-header-text {
+        margin: 28px 0 0;
+    }
+
+    .post-wrapper .more-link,
+    .home .section-content-wrapper .post-wrapper .entry-summary,
+    .home .section-content-wrapper .post-wrapper .entry-content {
+        margin-top: 35px;
+    }
+
+    .woocommerce-posts-wrapper .entry-title,
+    .archive .archive-posts-wrapper .entry-title,
+    .search .archive-posts-wrapper .entry-title,
+    .blog:not(.home) .archive-posts-wrapper .entry-title {
+        font-size: 32px;
+        font-size: 2rem;
+    }
+
+    .section-content-wrapper .post-thumbnail {
+        margin-bottom: 35px;
+    }
+
+    .promotion-section .post-thumbnail,
+    .app-section .post-thumbnail {
+        margin-top: 35px;
+    }
+
+    .featured-video-content-wrapper,
+    .featured-content-wrapper,
+    .services-content-wrapper,
+    .stats-content-wrapper,
+    .stats-section.style-one .section-heading-wrapper,
+    .contact-content-wrapper,
+    .team-content-wrapper,
+    .pricing-content-wrapper,
+    .site-content > .wrapper {
+        padding: 0 40px;
+    }
+
+    .post-wrapper .more-link .readmore,
+    #team-content-section .team-tab .hentry .more-link .readmore {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+
+    .archive .archive-post-wrap .post-wrapper,
+    .search .archive-post-wrap .post-wrapper,
+    .blog:not(.home) .archive-post-wrap .post-wrapper {
+        margin-bottom: 49px;
+        padding-bottom: 49px;
+    }
+
+    .archive .archive-post-wrap .hentry.has-post-thumbnail  .sticky-post,
+    .search .archive-post-wrap .hentry.has-post-thumbnail .sticky-post {
+        left: 28px;
+        top: 28px;
+    }
+
+    .home .archive-post-wrap .post-wrapper .entry-container,
+    .recent-blog-content .archive-post-wrap .post-wrapper .entry-container {
+        padding: 60px;
+    }
+
+    .section-subtitle,
+    .site-header-logo,
+    .slider-image-logo {
+        margin-bottom: 21px;
+    }
+
+    .section-description {
+        margin-top: 21px;
+    }
+
+    .scroll-down {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .scroll-down > svg {
+        font-size: 30px;
+        font-size: 1.875rem;
+    }
+
+    .header-media .scroll-down,
+    #feature-slider-section .scroll-down {
+        right: 75px;
+    }
+
+    #floating-social {
+        left: 50px;
+    }
+
+    #floating-social .social-navigation a {
+        font-size: 20px;
+        font-size: 1.25rem;
+        margin: 7px;
+        padding: 17px;
+        height: 64px;
+        width: 64px;
+    }
+
+    .has-social-floating #feature-slider-section .hentry.content-align-left.text-align-left .entry-container,
+    .has-social-floating #feature-slider-section .hentry.content-align-left.text-align-center .entry-container,
+    .has-social-floating #feature-slider-section .hentry.content-align-left.text-align-right .entry-container,
+    .has-social-floating .custom-header-content.content-align-left.text-align-left,
+    .has-social-floating .custom-header-content.content-align-left.text-align-center,
+    .has-social-floating .custom-header-content.content-align-left.text-align-right {
+            padding-left: 90px;
+    }
+
+    body:not(.home).has-social-floating #floating-social {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        left: 10px;
+    }
+
+    body:not(.home):not(.has-header-media).has-social-floating #floating-social {
+        min-height: 78vh;
+    }
+
+    body:not(.home) .custom-header-content {
+        padding: 70px 60px 130px 60px;
+    }
+
+    body.search-active #primary-search-wrapper input[type="search"].search-field {
+        font-size: 22px;
+        font-size: 1.375rem;
+    }
+
+    .sidebar .widget,
+    body:not(.home) .content-area .site-main,
+    .single .site-main .hentry,
+    .page .site-main .hentry {
+        margin-bottom: 49px;
+    }
+
+    .author-info,
+    .comments-area  ,
+    .single .site-main .entry-footer,
+    .page .site-main .entry-footer {
+        margin-top: 49px;
+    }
+
+    .widget-column {
+        padding: 35px 60px;
+    }
+
+    .footer-widget-area .widget {
+        margin-bottom: 42px;
+    }
+
+    #site-generator {
+        padding: 30px 50px;
+    }
+
+     #fullscreen-menu-toggle .menu-label {
+        padding-left: 14px;
+     }
+
+    .navigation-full-screen .site-header-main .wrapper {
+        padding: 28px 60px;
+    }
+
+    .site-header-main .wrapper {
+        padding: 14px 53px;
+    }
+
+    #fullscreen-menu-right-wrap .secondary-navigation + #social-menu-wrapper,
+    .full-screen-text-wrapper {
+        margin-top: 35px;
+    }
+
+    #fullscreen-menu-left-wrap .main-navigation a,
+    #fullscreen-menu-left-wrap .main-navigation .dropdown-toggle .icon {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .fullscreen-menu-inside-container {
+        padding: 240px 0px;
+    }
+
+    #fullscreen-menu-left-wrap .main-navigation .menu-item-has-children .dropdown-toggle,
+    #fullscreen-menu-left-wrap .main-navigation .page_item_has_children .dropdown-toggle {
+        padding: 16px 12px;
+    }
+
+    #fullscreen-menu-left-wrap .main-navigation .menu-item-has-children .menu-item-has-children .dropdown-toggle,
+    #fullscreen-menu-left-wrap .main-navigation .page_item_has_children .page_item_has_children .dropdown-toggle  {
+        padding: 8px 12px;
+    }
+
+    #hero-section .wrapper,
+    .portfolio-content-wrapper,
+    .events-section.single-layout .section-content-wrapper,
+    .playlist-content-wrapper,
+    .promotion-section .content-wrapper,
+    .logo-slider-content-wrapper,
+    #footer-newsletter .widget-inner,
+    #testimonial-content-section .hentry {
+        padding: 0 60px;
+    }
+
+    .services-section.section .hentry .hentry-inner {
+        padding: 42px;
+    }
+
+    .custom-header-content .site-header-logo img,
+    #feature-slider-section .slider-image-logo img {
+        max-width: 480px;
+    }
+
+    body:not(.home) .custom-header {
+        padding-top: 131px;
+    }
+
+    #stats-section.style-three .section-content-wrapper.layout-two .hentry-inner,
+    #stats-section.style-three .section-content-wrapper.layout-three .hentry-inner {
+        padding-left: 70px;
+        padding-right: 30px;
+    }
+
+    .stats-section.style-three .sub-title {
+        font-size: 80px;
+        font-size: 5rem;
+    }
+
+    .logo-slider-section.style-two .section-description {
+        margin-top: 28px;
+    }
+
+    .logo-slider-section.style-two .heading-right {
+        margin-left: 77px;
+    }
+
+    .logo-slider-section .section-subtitle-after-title {
+        font-size: 32px;
+        font-size: 2rem;
+    }
+
+    #testimonial-content-section.style-two .entry-container + .entry-header {
+        margin-top: 35px;
+    }
+
+    #testimonial-content-section.style-two .section-content-wrapper .entry-content:before {
+        font-weight: 260;
+        font-size: 16.25rem;
+    }
+
+    #testimonial-content-section.style-two .section-content-wrapper .entry-content {
+        margin-top: 42px;
+    }
+
+    #testimonial-content-section.style-two .owl-prev:after,
+    #testimonial-content-section.style-two .owl-next:before {
+        font-size: 18px;
+        font-size: 1.125rem;
+    }
+
+    #testimonial-content-section.style-two .owl-prev:before,
+    #testimonial-content-section.style-two .owl-next:after {
+        height: 106px;
+    }
+
+    .team-tab li span {
+        font-size: 34px;
+        font-size: 2.125rem;
+    }
+
+    .team-tab li sup {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .team-tab .ui-tabs-nav li a {
+        padding: 35px 21px
+    }
+
+
+    .team-tab .ui-tabs-panel {
+        padding-left: 60px;
+    }
+
+    .team-tab .ui-tabs-nav {
+        margin-top: 49px;
+        padding-right: 60px;
+    }
+
+    body .wp-playlist {
+        padding: 42px;
+    }
+}

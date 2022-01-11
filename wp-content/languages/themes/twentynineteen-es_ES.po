@@ -1,0 +1,529 @@
+# Translation of Themes - Twenty Nineteen in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Twenty Nineteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-11 05:55:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Twenty Nineteen\n"
+
+#. Description of the theme
+msgid "Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes."
+msgstr "Nuestro tema por defecto de 2019 está diseñado para mostrar la potencia del editor de bloques. Presenta estilos personalizados para todos los bloques por defecto y está creado para que lo que ves en el editor sea igual que lo que verás en tu web. Twenty Nineteen está diseñado para ser adaptable a un amplio abanico de webs, ya tengas un fotoblog, estés lanzando un nuevo negocio o apoyando a una organización sin ánimo de lucro. Presentando un amplio espacio en blanco y modernos titulares en la fuente Sans-Serif combinadas con la fuente Serif clásica en el texto del cuerpo, está hecho para ser bello en todos los tamaños de pantalla."
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+msgid "Twenty Nineteen"
+msgstr "Twenty Nineteen"
+
+#: inc/block-patterns.php:195
+msgid "We help companies communicate with their customers."
+msgstr "Ayudamos a las empresas a comunicarse con sus clientes."
+
+#: inc/block-patterns.php:195
+msgid "Spark interest on social media"
+msgstr "Despertar el interés en los medios sociales"
+
+#: inc/block-patterns.php:192
+msgid "We help businesses grow."
+msgstr "Ayudamos a las empresas a crecer."
+
+#: inc/block-patterns.php:192
+msgid "Activate new customers"
+msgstr "Activar nuevos clientes"
+
+#: inc/block-patterns.php:189
+msgid "We help startups define (or refine) a clear brand identity."
+msgstr "Ayudamos a las empresas emergentes a definir (o refinar) una clara identidad de marca."
+
+#: inc/block-patterns.php:189
+msgid "Redefine brands"
+msgstr "Redefinir las marcas"
+
+#: inc/block-patterns.php:179 inc/block-patterns.php:186
+msgid "What We Do"
+msgstr "Lo que hacemos"
+
+#: inc/block-patterns.php:167
+msgid "Oddly enough, Doug Watson also grew up working alongside his parents at a family-owned restaurant in Queens, NY. He &nbsp;worked on digital campaigns for Fortune 500 Companies before joining Eva Green Consulting."
+msgstr "Curiosamente, Doug Watson también creció trabajando junto a sus padres en un restaurante familiar en Queens, NY. Trabajó en campañas digitales para empresas de la lista Fortune 500 antes de unirse a Eva Green Consulting."
+
+#: inc/block-patterns.php:164
+msgid "Doug Watson"
+msgstr "Doug Watson"
+
+#: inc/block-patterns.php:159
+msgid "Eva Young grew up working alongside her parents at their restaurant in Queens, NY. She opened Eva Young Consulting in 2014 to help small businesses like her parents’ restaurant adapt to the digital age."
+msgstr "Eva Young creció trabajando junto a sus padres en su restaurante en Queens, NY. Abrió Eva Young Consulting en 2014 para ayudar a las pequeñas empresas como el restaurante de sus padres a adaptarse a la era digital."
+
+#: inc/block-patterns.php:156
+msgid "Eva Young"
+msgstr "Eva Young"
+
+#: inc/block-patterns.php:145 inc/block-patterns.php:152
+msgid "Team"
+msgstr "Equipo"
+
+#: inc/block-patterns.php:131
+msgid "Content Strategy"
+msgstr "Estrategia de contenido"
+
+#: inc/block-patterns.php:126
+msgid "Copywriting"
+msgstr "Redacción"
+
+#: inc/block-patterns.php:121
+msgid "Marketing"
+msgstr "Marketing"
+
+#: inc/block-patterns.php:114
+msgid "Social Media"
+msgstr "Medios sociales"
+
+#: inc/block-patterns.php:109
+msgid "Mobile"
+msgstr "Móvil"
+
+#: inc/block-patterns.php:104
+msgid "Website Design"
+msgstr "Diseño web"
+
+#: inc/block-patterns.php:103 inc/block-patterns.php:108
+#: inc/block-patterns.php:113 inc/block-patterns.php:120
+#: inc/block-patterns.php:125 inc/block-patterns.php:130
+#: inc/block-patterns.php:155 inc/block-patterns.php:163
+msgid "Gradient"
+msgstr "Degradado"
+
+#: inc/block-patterns.php:92 inc/block-patterns.php:98
+msgid "Services"
+msgstr "Servicios"
+
+#: inc/block-patterns.php:80
+msgid "Contact Us"
+msgstr "Contacta con nosotros"
+
+#: inc/block-patterns.php:74
+msgid "example@example.com"
+msgstr "ejemplo@ejemplo.com"
+
+#: inc/block-patterns.php:74
+msgid "(555) 555-5555"
+msgstr "(555) 555-5555"
+
+#: inc/block-patterns.php:69
+msgid "New York, New York 10023"
+msgstr "Nueva York, Nueva York 10023"
+
+#: inc/block-patterns.php:69
+msgid "20 Cooper Avenue"
+msgstr "Avenida Cooper, 20"
+
+#: inc/block-patterns.php:58 inc/block-patterns.php:64
+msgid "Get In Touch"
+msgstr "Ponte en contacto"
+
+#: inc/block-patterns.php:46
+msgid "Learn More"
+msgstr "Aprender más"
+
+#: inc/block-patterns.php:42
+msgid "Eva Young Consulting was founded in 2014 to meet the needs of small businesses in the San Francisco Bay Area. We help startups define a clear brand identity and digital strategy that will carry them through their financing rounds and scale as their business grows. Discover how we can boost your brand with a unique and powerful digital marketing strategy."
+msgstr "Eva Young Consulting fue fundada en 2014 para satisfacer las necesidades de los pequeños negocios en el área de la bahía de San Francisco. Ayudamos a las empresas emergentes a definir una clara identidad de marca y una estrategia digital que las llevará a través de sus rondas de financiación y a escalar a medida que su negocio crezca. Descubre cómo podemos impulsar tu marca con una estrategia de marketing digital única y potente."
+
+#: inc/block-patterns.php:39
+msgid "Advocating for Businesses and Entrepreneurs since 2014"
+msgstr "Abogando por los negocios y los emprendedores desde 2014"
+
+#: inc/block-patterns.php:33
+msgid "About"
+msgstr "Acerca de"
+
+#: classes/class-twentynineteen-walker-comment.php:98
+msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
+msgstr "Tu comentario está pendiente de moderación. Esto es una vista previa, tu comentario será visible después de que haya sido aprobado."
+
+#: functions.php:154
+msgid "Dark Blue"
+msgstr "Azul oscuro"
+
+#: functions.php:149
+msgid "Blue"
+msgstr "Azul"
+
+#. translators: %s: Parent post link.
+#: single.php:31
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</span>"
+msgstr "<span class=\"meta-nav\">Publicado en</span> <span class=\"post-title\">%s</span>"
+
+#: image.php:87
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Publicado en </span><br><span class=\"post-title\">%title</span>"
+
+#: template-parts/content/content-excerpt.php:18
+#: template-parts/content/content.php:18
+msgctxt "post"
+msgid "Featured"
+msgstr "Destacada"
+
+#. translators: %s: WordPress version.
+#. translators: %s: WordPress version.
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:43 inc/back-compat.php:60 inc/back-compat.php:83
+msgid "Twenty Nineteen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Nineteen necesita, al menos, la versión 4.7 de WordPress. Estás ejecutando la versión %s. Por favor, actualiza e inténtalo de nuevo."
+
+#: inc/template-functions.php:143
+msgid "Back"
+msgstr "Volver"
+
+#: inc/template-functions.php:136
+msgid "More"
+msgstr "Más"
+
+#: inc/customizer.php:98
+msgid "Apply a filter to featured images using the primary color"
+msgstr "Aplica un filtro a las imágenes destacadas utilizando el color principal"
+
+#: inc/customizer.php:78
+msgid "Apply a custom color for buttons, links, featured images, etc."
+msgstr "Aplica un color personalizado para los botones, enlaces, imágenes destacadas, etc."
+
+#: inc/customizer.php:56
+msgctxt "primary color"
+msgid "Custom"
+msgstr "Personalizado"
+
+#: inc/customizer.php:55
+msgctxt "primary color"
+msgid "Default"
+msgstr "Por defecto"
+
+#: functions.php:169
+msgid "White"
+msgstr "Blanco"
+
+#: functions.php:164
+msgid "Light Gray"
+msgstr "Gris claro"
+
+#: functions.php:159
+msgid "Dark Gray"
+msgstr "Gris oscuro"
+
+#: functions.php:137
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:136
+msgid "Huge"
+msgstr "Enorme"
+
+#: functions.php:131
+msgid "L"
+msgstr "L"
+
+#: functions.php:130
+msgid "Large"
+msgstr "Grande"
+
+#: functions.php:125
+msgid "M"
+msgstr "M"
+
+#: functions.php:124
+msgid "Normal"
+msgstr "Normal"
+
+#: functions.php:119
+msgid "S"
+msgstr "S"
+
+#: functions.php:118
+msgid "Small"
+msgstr "Pequeño"
+
+#: footer.php:37 functions.php:60
+msgid "Footer Menu"
+msgstr "Menú del pie de página"
+
+#: image.php:70
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Tamaño completo"
+
+#: image.php:56
+msgid "Page"
+msgstr "Página"
+
+#: functions.php:196
+msgid "Add widgets here to appear in your footer."
+msgstr "Añade aquí los widgets que quieres que aparezcan en tu pie de página."
+
+#: functions.php:194 template-parts/footer/footer-widgets.php:12
+msgid "Footer"
+msgstr "Pie de página"
+
+#: inc/customizer.php:53
+msgid "Primary Color"
+msgstr "Color principal"
+
+#: template-parts/post/discussion-meta.php:18
+msgid "No comments"
+msgstr "Sin comentarios"
+
+#. translators: %d: Number of comments.
+#: template-parts/post/discussion-meta.php:16
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d comentario"
+msgstr[1] "%d comentarios"
+
+#: template-parts/post/author-bio.php:26
+msgid "View more posts"
+msgstr "Ver más entradas"
+
+#. translators: %s: Post author.
+#: template-parts/post/author-bio.php:17
+msgid "Published by %s"
+msgstr "Publicado por %s"
+
+#: template-parts/header/site-branding.php:33
+msgid "Top Menu"
+msgstr "Menú superior"
+
+#. translators: %s: Post title.
+#. translators: %s: Post title. Only visible to screen readers.
+#. translators: %s: Post title. Only visible to screen readers.
+#: functions.php:225 template-parts/content/content-single.php:27
+#: template-parts/content/content.php:36
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Seguir leyendo<span class=\"screen-reader-text\"> «%s»</span>"
+
+#: image.php:52 template-parts/content/content-page.php:27
+#: template-parts/content/content-single.php:40
+#: template-parts/content/content.php:49
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/content/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no encontramos lo que estás buscando. Puede que una búsqueda te ayude."
+
+#: template-parts/content/content-none.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento, pero no hay nada que coincida con tus términos de búsqueda. Por favor, inténtalo de nuevo con algunas palabras clave diferentes."
+
+#. translators: %s: Link to WP admin new post page.
+#: template-parts/content/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primera entrada? <a href=\"%s\">Empieza aquí</a>."
+
+#: template-parts/content/content-none.php:16
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: single.php:42
+msgid "Previous post:"
+msgstr "Entrada anterior:"
+
+#: single.php:41
+msgid "Previous Post"
+msgstr "Entrada anterior"
+
+#: single.php:39
+msgid "Next post:"
+msgstr "Entrada siguiente:"
+
+#: single.php:38
+msgid "Next Post"
+msgstr "Entrada siguiente"
+
+#: search.php:22
+msgid "Search results for: "
+msgstr "Resultados de la búsqueda de: "
+
+#: inc/template-tags.php:234
+msgid "Older posts"
+msgstr "Entradas anteriores"
+
+#: inc/template-tags.php:230
+msgid "Newer posts"
+msgstr "Entradas siguientes"
+
+#: inc/template-tags.php:104
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: inc/template-tags.php:92
+msgid "Posted in"
+msgstr "Publicado en"
+
+#. translators: Used between list items, there is a space after the comma.
+#. translators: Used between list items, there is a space after the comma.
+#: inc/template-tags.php:86 inc/template-tags.php:98
+msgid ", "
+msgstr ", "
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:63
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
+
+#: inc/template-tags.php:46
+msgid "Posted by"
+msgstr "Publicado por"
+
+#: inc/template-functions.php:82
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/template-functions.php:80
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/template-functions.php:92
+msgid "Archives:"
+msgstr "Archivos:"
+
+#. translators: %s: Taxonomy singular name.
+#: inc/template-functions.php:90
+msgid "%s Archives:"
+msgstr "Archivos de %s:"
+
+#: inc/template-functions.php:86
+msgid "Post Type Archives: "
+msgstr "Archivos del tipo de contenido: "
+
+#: inc/template-functions.php:84
+msgid "Daily Archives: "
+msgstr "Archivos diarios:"
+
+#: inc/template-functions.php:82
+msgid "Monthly Archives: "
+msgstr "Archivos mensuales:"
+
+#: inc/template-functions.php:80
+msgid "Yearly Archives: "
+msgstr "Archivos anuales:"
+
+#: inc/template-functions.php:78
+msgid "Author Archives: "
+msgstr "Archivos del autor:"
+
+#: inc/template-functions.php:76
+msgid "Tag Archives: "
+msgstr "Archivos de la etiqueta: "
+
+#: inc/template-functions.php:74
+msgid "Category Archives: "
+msgstr "Archivos de la categoría: "
+
+#. translators: %s: Post title. Only visible to screen readers.
+#. translators: %s: Post title. Only visible to screen readers.
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:120 template-parts/content/content-page.php:41
+#: template-parts/header/entry-header.php:32
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: functions.php:61 template-parts/header/site-branding.php:46
+msgid "Social Links Menu"
+msgstr "Menú de enlaces sociales"
+
+#: functions.php:59
+msgid "Primary"
+msgstr "Principal"
+
+#. translators: %s: WordPress.
+#: footer.php:28
+msgid "Proudly powered by %s."
+msgstr "Funciona gracias a %s."
+
+#: comments.php:116
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:96
+msgid "Next"
+msgstr "Siguiente"
+
+#: comments.php:95
+msgid "Previous"
+msgstr "Anterior"
+
+#: comments.php:92 comments.php:95 comments.php:96
+msgid "Comments"
+msgstr "Comentarios"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s respuesta a «%2$s»"
+msgstr[1] "%1$s respuestas a «%2$s»"
+
+#. translators: %s: Post title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Una respuesta a «%s»"
+
+#: comments.php:35 comments.php:105 comments.php:107
+msgid "Leave a comment"
+msgstr "Dejar un comentario"
+
+#: comments.php:33
+msgid "Join the Conversation"
+msgstr "Únete a la conversación"
+
+#: classes/class-twentynineteen-walker-comment.php:96
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#: classes/class-twentynineteen-walker-comment.php:89
+msgid "Edit"
+msgstr "Editar"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentynineteen-walker-comment.php:78
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#. translators: %s: Comment author link.
+#: classes/class-twentynineteen-walker-comment.php:59
+msgid "%s <span class=\"screen-reader-text says\">says:</span>"
+msgstr "%s <span class=\"screen-reader-text says\">dice:</span>"
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que no se ha encontrado nada en esta ubicación. ¿Quieres probar una búsqueda?"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se ha podido encontrar esa página."
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentynineteen/"
+msgstr "https://es.wordpress.org/themes/twentynineteen/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "el equipo de WordPress"
+
+#. Author URI of the theme
+#: footer.php:25
+msgid "https://wordpress.org/"
+msgstr "https://es.wordpress.org/"

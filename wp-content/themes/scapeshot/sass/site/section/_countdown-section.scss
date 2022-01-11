@@ -1,0 +1,115 @@
+/**
+ * 8.3.21 - Countdown Section
+ */
+
+#countdown-section.section {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+#countdown-section .post-thumbnail {
+    margin-bottom: 0;
+}
+
+#countdown-section .entry-container {
+    padding: 70px 0px 50px 0px;
+}
+
+#countdown-section .section-heading-wrapper {
+    padding-bottom: 21px;
+}
+
+#countdown-section .content-wrapper {
+    text-align: center;
+}
+
+#clock {
+    overflow: hidden;
+}
+
+#clock span {
+    display: block;
+}
+
+#clock > .count-down {
+    display: inline-block;
+    float: left;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    position: relative;
+    padding: 21px 20px 20px 20px;
+    text-align: center;
+    width: 50%;
+}
+
+#clock > .count-down .countdown-number {
+    font-size: 49px;
+    font-size: 3.0625rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+}
+
+#clock > .count-down .countdown-label {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+#clock > .count-down:after {
+    content: ":";
+    font-size: 48px;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 0;
+    position: absolute;
+    top: 38%;
+    right: -5px;
+}
+
+#clock > .count-down:last-child:after,
+#clock > .count-down:nth-child(2):after {
+    content: none;
+}
+
+#countdown-section .countdown-number {
+    display: block;
+    font-size: 42px;
+    font-size: 2.625rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#countdown-section .countdown-label {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 2.15;
+    text-transform: uppercase;
+}
+
+
+#countdown-section .hentry {
+    margin-bottom: 0;
+}
+
+
+#countdown-section .section-content-wrapper .entry-summary,
+#countdown-section .section-content-wrapper .entry-content {
+    margin-top: 0;
+}

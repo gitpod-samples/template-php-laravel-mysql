@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    font-weight: 700;
+  	font-style: normal;
+  	font-stretch: normal;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	&:first-child{
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,65 @@
+.clients-content-wrapper {
+    position: relative;
+
+    .hentry .post-thumbnail {
+        margin-bottom: 0;
+    }
+
+    div#logo-slider-pager {
+        font-size: 45px;
+        font-size: 2.8125rem;
+
+        span {
+            cursor: pointer;
+        }
+    }    
+
+    .cycle-prev {
+        margin-right: 5px;
+    }
+
+    .cycle-next {
+        margin-left: 5px;
+    }
+
+    .controller {
+        align-items: center;
+        bottom: -65px;
+        display: none;
+        left: 50%;
+        transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        position: absolute;
+    }
+}
+
+#clients-section {
+    
+    .section-heading-wrapper {
+        padding-bottom: 0;
+    }
+}
+
+.logo-slider-content-wrapper .entry-container {
+    margin-top: 30px;
+}
+
+#logo-slider-section .hentry {
+    text-align: center;
+
+    .post-thumbnail {
+        img {
+            width: auto;
+        }
+    }
+}
+
+.logo-slider-section .section-subtitle-after-title {
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.36;
+    margin-top: 21px;
+}

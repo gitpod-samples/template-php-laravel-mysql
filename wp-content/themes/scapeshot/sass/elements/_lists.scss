@@ -1,0 +1,25 @@
+ul {
+	list-style: disc;
+}
+
+ul,
+ol {
+	margin: 0 0 28px 18px;
+
+	li {
+		line-height: 30px;
+	}
+}
+
+ol ol,
+ul ul{
+	margin: 35px;
+}
+
+ul li > ul,
+ol li > ol,
+ul li > ol,
+ol li > ul{
+	margin-top: 0;
+	margin-bottom:0;
+}

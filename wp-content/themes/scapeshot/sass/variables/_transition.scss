@@ -1,0 +1,71 @@
+/**
+     - Transition
+ */
+
+$button-transition: all 0.5s ease-in-out;
+
+a,
+.wp-playlist button,
+.contact-details .contact-details-icon-wrapper,
+#gallery-section .tiled-gallery .tiled-gallery-item a:before,
+#sticky-playlist-section,
+body .wp-playlist .wp-playlist-playing .wp-playlist-caption,
+body .wp-playlist .wp-playlist-playing .wp-playlist-caption .wp-playlist-item-title,
+body .wp-playlist .wp-playlist-playing .wp-playlist-caption .wp-playlist-item-artist,
+body .wp-playlist .wp-playlist-playing .wp-playlist-item-length,
+body .wp-playlist .wp-playlist-tracks > .wp-playlist-item {
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+#promotion-section .readmore,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+    -webkit-transition: background-color .2s ease-in;
+    -moz-transition: background-color .2s ease-in;
+    -o-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    transition: 0.2s border-color .2s ease-in,
+                0.2s color .2s ease-in;
+}
+
+.team-content-wrapper .entry-container,
+.products .product a img,
+.scroll-down,
+.icon-arrow-right,
+.scroll-down .icon,
+.services-section.section .hentry .hentry-inner .post-thumbnail img {
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}

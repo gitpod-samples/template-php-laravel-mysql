@@ -1,0 +1,133 @@
+/* Portfolio */
+#portfolio-content-section .wrapper {
+    padding-bottom: 42px;
+}
+
+#portfolio-content-section .wrapper .view-more {
+    margin-top: 35px
+}
+
+.portfolio-content-wrapper .hentry-inner {
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-content-wrapper .entry-container {
+    position: absolute;
+    top: 0;
+    padding: 30px;
+}
+
+.portfolio-content-wrapper .post-thumbnail {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.portfolio-content-wrapper .post-thumbnail a:before {
+    content: "";
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+.portfolio-content-wrapper .hentry-inner:hover .post-thumbnail a:before,
+.portfolio-content-wrapper .hentry-inner:focus .post-thumbnail a:before {
+    background-color: rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+}
+
+.portfolio-content-wrapper .no-title .post-thumbnail,
+.portfolio-content-wrapper .no-meta .post-thumbnail {
+    margin: 0;
+}
+
+.portfolio-content-wrapper .entry-container {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.portfolio-content-wrapper .hentry-inner:hover .entry-container {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.portfolio-content-wrapper .entry-summary {
+    display: none;
+}
+
+#portfolio-content-section .filter-button-group {
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+#portfolio-content-section .filter-button-group .button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-size: ‭0.875rem;
+    font-weight: 600;
+    line-height: 1.62;
+    outline: 0;
+    padding: 7px 14px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+#portfolio-content-section .filter-button-group .button.is-checked {
+    opacity: 1;
+}
+
+.portfolio-content-wrapper.layout-three .hentry {
+    margin: 0;
+}
+
+.portfolio-content-wrapper.section-content-wrapper .post-thumbnail {
+    margin: 0;
+}
+
+#portfolio-content-section .filter-button-group > button {
+    background-image: none;
+}
+
+.promotion-section .post-thumbnail-background:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio-content-section.full-layout .wrapper {
+    max-width: 100%;
+}
+
+#portfolio-content-section.full-layout .section-content-wrapper {
+    padding: 0;
+}
+
+#portfolio-content-section.full-layout  .entry-container {
+    bottom: 0;
+    top: unset;
+}
+
+#portfolio-content-section.full-layout .post-thumbnail a:before {
+    background-color: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#portfolio-content-section.full-layout .hentry-inner:hover .post-thumbnail a:before,
+#portfolio-content-section.full-layout .hentry-inner:focus .post-thumbnail a:before {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}

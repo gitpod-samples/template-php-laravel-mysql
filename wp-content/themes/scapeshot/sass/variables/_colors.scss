@@ -1,0 +1,62 @@
+/**
+ * 1.0 - Variables
+ */
+
+
+/**
+ * 1.1 - Colors
+ */
+
+$theme-background-color : (
+
+    background-color: #000000,
+
+    page-background-color: #000000,
+
+    primary-background-color: #111111,
+
+    secondary-background-color: #121212,
+
+);
+
+$theme-color:(
+
+    site-branding-color: #ffffff,
+
+    main-text-color: #999999,
+
+    absolute-site-branding-color: #ffffff,
+
+    header-navigation-color: #ffffff,
+
+    absolute-header-navigation-color: #ffffff,
+
+    heading-text-color: #ffffff,
+
+    link-color: #ffffff,
+
+    secondary-link-color: #888888,
+
+    link-hover-color: #ff8605,
+
+    border-color: #282828,
+
+    tertiary-text-color: #ffffff,
+
+    custom-header-slider-text-color: #ffffff,
+);
+
+$button-color: (
+
+    gradient-button-background-color-first: #ff8605,
+
+    gradient-button-background-color-second: #ff5b02,
+
+    button-text-color: #ffffff,
+
+    gradient-button-background-hover-color-first: #ff5b02,
+
+    gradient-button-background-hover-color-second: #ff8605,
+
+    button-hover-text-color: #ffffff,
+);

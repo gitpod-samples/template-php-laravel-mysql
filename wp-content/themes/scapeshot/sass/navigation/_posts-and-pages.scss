@@ -1,0 +1,433 @@
+/**
+ * 12.2 - Posts and pages
+ */
+
+.hentry,
+#timeline-section .post-thumbnail,
+#timeline-section .entry-container {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.post-thumbnail {
+	display: block;
+	position: relative;
+}
+
+.post-thumbnail img {
+	display: block;
+	margin: 0 auto;
+}
+
+h1,
+.page-title,
+body:not(.home) .header-media .entry-title,
+.stats-section:not(.style-three) .sub-title {
+	font-size: 36px;
+	font-size: 2.25rem;
+	line-height: 1.33;
+}
+
+h1 {
+	margin-top: 0.9655172413793103em;
+	margin-bottom: 0.4827586206896552em;
+}
+
+h2 {
+	font-size: 32px;
+	font-size: 2rem;
+	line-height: 1.43;
+}
+
+h2 {
+	margin-top: 1.142857142857143em;
+	margin-bottom: 0.5714285714285714em;
+}
+
+h3 {
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 1.36;
+	margin-top: 1.555555555555556em;
+	margin-bottom: 0.7777777777777778em;
+}
+
+h4 {
+	font-size: 22px;
+	font-size: 1.375rem;
+	line-height: 1.25;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+h5 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.458333333333333;
+	margin-top: 2.333333333333333em;
+	margin-bottom: 1.166666666666667em;
+}
+
+h6 {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.56;
+	margin-top: 3.111111111111111em;
+	margin-bottom: 1.555555555555556em;
+}
+
+.page-title {
+	margin: 0 0 14px 0;
+}
+
+.entry-content h1:first-child,
+.entry-content h2:first-child,
+.entry-content h3:first-child,
+.entry-content h4:first-child,
+.entry-content h5:first-child,
+.entry-content h6:first-child,
+.entry-summary h1:first-child,
+.entry-summary h2:first-child,
+.entry-summary h3:first-child,
+.entry-summary h4:first-child,
+.entry-summary h5:first-child,
+.entry-summary h6:first-child,
+.comment-content h1:first-child,
+.comment-content h2:first-child,
+.comment-content h3:first-child,
+.comment-content h4:first-child,
+.comment-content h5:first-child,
+.comment-content h6:first-child,
+.textwidget h1:first-child,
+.textwidget h2:first-child,
+.textwidget h3:first-child,
+.textwidget h4:first-child,
+.textwidget h5:first-child,
+.textwidget h6:first-child {
+	margin-top: 0;
+}
+
+.post-navigation .post-title,
+.entry-title,
+.comments-title {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.custom-header-content > :last-child,
+.entry-content > :last-child,
+.entry-summary > :last-child,
+.page-content > :last-child,
+.comment-content > :last-child,
+.textwidget > :last-child,
+.section-subtitle > p,
+.section-description > p,
+.full-screen-text-wrapper > :last-child {
+	margin-bottom: 0;
+}
+
+.more-link {
+	clear: both;
+	display: block;
+}
+
+.custom-header .more-link,
+.hero-section .more-link {
+	display: inline-block;
+}
+
+.more-link .readmore {
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1.75;
+	letter-spacing: 0;
+	padding: 0;
+	text-decoration: none;
+	text-transform: capitalize;
+	word-wrap: break-word;
+}
+
+.post-wrapper .more-link .readmore,
+#team-content-section .team-tab .hentry .more-link .readmore {
+	line-height: normal;
+  	letter-spacing: 2.25px;
+  	position: relative;
+  	text-transform: uppercase;
+}
+
+.post-wrapper .more-link .readmore:after,
+#team-content-section .team-tab .hentry .more-link .readmore:after {
+	content: "";
+	display: inline-block;
+	height: 1px;
+	margin-left: 14px;
+	@include transition(0.3s);
+	vertical-align: middle;
+	width: 35px;
+}
+
+.post-wrapper .more-link .readmore:hover::after,
+.post-wrapper .more-link .readmore:focus::after,
+#team-content-section .team-tab .hentry .more-link .readmore:hover::after,
+#team-content-section .team-tab .hentry .more-link .readmore:focus::after {
+	margin-left: 7px;
+}
+
+.more-button {
+	display: inline-block;
+}
+
+.view-more {
+	clear: both;
+	margin: 0 0 35px 0;
+	text-align: center;
+}
+
+.author-info {
+	clear: both;
+	padding: 28px;
+	text-align: center;
+}
+
+.author-avatar .avatar {
+	border-radius: 50%;
+	height: 65px;
+	margin: 0 auto;
+	width: 65px;
+}
+
+.author-description > :last-child {
+	margin-bottom: 0;
+}
+
+.author-description .author-title {
+	clear: none;
+	line-height: 1.46;
+}
+
+.author-bio {
+	overflow: hidden;
+}
+
+.author-link {
+	display: block;
+	margin-top: 28px;
+	white-space: nowrap;
+}
+
+.entry-footer:empty {
+	margin: 0;
+}
+
+.sticky-post {
+	display: inline-block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 1.62;
+	margin-bottom: 21px;
+	padding: 5px 14px;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	@include transition(0.3s);
+}
+
+.archive .archive-post-wrap .hentry.has-post-thumbnail  .sticky-post,
+.search .archive-post-wrap .hentry.has-post-thumbnail .sticky-post {
+	left: 14px;
+	position: absolute;
+	top: 14px;
+}
+
+.full-content .has-post-thumbnail .sticky-post {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+.section-subtitle,
+.post-wrapper .entry-meta .cat-links,
+#feature-slider-section .entry-meta {
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.post-wrapper .entry-title + .entry-meta {
+	margin-bottom: 0;
+	margin-top: 14px;
+}
+
+.entry-meta {
+	line-height: 1.62;
+	text-transform: capitalize;
+}
+
+.entry-meta a {
+	display: inline-block;
+	margin: 0 0 4px 4px;
+}
+
+.entry-header .entry-meta > span > span + a {
+	margin-left: 0;
+}
+
+.entry-header .entry-meta > span {
+	clear: none;
+	display: inline-block;
+}
+
+.entry-header .entry-meta {
+	margin-bottom: 7px;
+}
+
+.entry-title + .entry-meta {
+	margin-top: 7px;
+}
+
+.entry-footer .entry-meta > span {
+	clear: both;
+	display: block;
+}
+
+.edit-link {
+	margin: 14px 0;
+}
+
+.entry-header .entry-meta .posted-on + .byline {
+	position: relative;
+}
+
+.entry-header .entry-meta .posted-on + .byline:before {
+	content: "|";
+	padding-left: 7px;
+	padding-right: 5px;
+}
+
+.entry-footer .entry-meta > span + span {
+	margin: 35px 0 0;
+}
+
+/**
+ * IE8 and earlier will drop any block with CSS3 selectors.
+ * Do not combine these styles with the next block.
+ */
+
+.updated:not(.published) {
+	display: none;
+}
+
+.taxonomy-description p {
+	margin: 0.5384615385em 0 1.6153846154em;
+}
+
+.taxonomy-description > :last-child {
+	margin-bottom: 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.75em;
+}
+
+.page-links a,
+.page-links > span {
+	border: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	display: inline-block;
+	font-size: 16px;
+	font-size: 1rem;
+	height: 2em;
+	line-height: 2em;
+	margin-right: 0.5em;
+	text-align: center;
+	width: 2em;
+}
+
+.page-links a:hover,
+.page-links a:focus {
+	border-color: transparent;
+}
+
+.page-links > .page-links-title {
+	border: 0;
+	height: auto;
+	margin: 0;
+	padding-right: 0.5em;
+	width: auto;
+}
+
+.entry-attachment {
+	margin-bottom: 1.75em;
+}
+
+.entry-caption {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 1.0769230769em;
+}
+
+.entry-caption > :last-child {
+	margin-bottom: 0;
+}
+
+.section:not(#team-content-section):not(#portfolio-content-section):not(#feature-slider-section) .post-thumbnail a img {
+	-webkit-backface-visibility: hidden;
+}
+
+.section:not(#team-content-section):not(#portfolio-content-section):not(#feature-slider-section):not(#logo-slider-section) .post-thumbnail a:hover img,
+.section:not(#team-content-section):not(#portfolio-content-section):not(#feature-slider-section):not(#logo-slider-section) .post-thumbnail a:focus img {
+	opacity: 0.65;
+}
+
+.home .header-media .entry-title,
+#feature-slider-section .entry-title {
+	font-weight: normal;
+	line-height: 1.23;
+}
+
+.entry-title,
+ul.products li.product .woocommerce-loop-product__title,
+.woocommerce-loop-category__title,
+.contact-content-wrapper .contact-us-form .entry-title,
+.section-title {
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.46;
+	letter-spacing: normal;
+	margin: 0;
+}
+
+.home .archive-posts-wrapper .entry-title,
+#footer-instagram .widget-title,
+.contact-content-wrapper .contact-us-form .entry-title,
+.section-title {
+	line-height: 1.23;
+}
+
+.woocommerce-posts-wrapper .entry-title,
+.archive .archive-posts-wrapper .entry-title,
+.search .archive-posts-wrapper .entry-title,
+.blog:not(.home) .archive-posts-wrapper .entry-title {
+	line-height: 1.36;
+}
+
+.hero-section .entry-title,
+.promotion-section .entry-title,
+.app-section .entry-title
+.countdown-section .entry-title {
+
+}

@@ -1,0 +1,31 @@
+/**
+ * 7.6 - Scroll Up
+ */
+
+#scrollup {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: none;
+    line-height: 1;
+    outline: none;
+    padding: 7px;
+    position: fixed;
+    bottom: 112px;
+    right: 28px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: none;
+    z-index: 9999;
+}
+
+#scrollup .icon {
+	width: 28px;
+	height: 28px;
+}
+
+#scrollup:hover,
+#scrollup:focus {
+    text-decoration: none;
+}

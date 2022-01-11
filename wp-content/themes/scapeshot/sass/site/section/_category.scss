@@ -1,0 +1,80 @@
+/**
+ * 8.3.23 - Category Section
+ */
+
+.category-content-section .hentry-inner {
+    /*min-height: 440px;*/
+    overflow: hidden;
+    position: relative;
+}
+
+.category-content-section .post-thumbnail:before {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.category-content-section .section-content-wrapper .post-thumbnail {
+    margin-bottom: 0;
+}
+
+.category-content-section .post-thumbnail {
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    transition: 0.5s ease;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.category-content-section .entry-title a {
+    display: block;
+}
+
+.category-content-section .hentry-inner:hover .post-thumbnail,
+.category-content-section .hentry-inner:focus .post-thumbnail {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.category-content-section .entry-container {
+    padding: 14px;
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    right: 14px;
+    width: calc(100% - 28px);
+    z-index: 9;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.category-content-section.text-align-left .entry-container {
+    text-align: left;
+}
+
+.category-content-section.text-align-center .entry-container {
+    text-align: center;
+}
+
+.category-content-section.text-align-right .entry-container {
+    text-align: right;
+}
+
+.home .category-content-section .entry-title ~ .entry-meta {
+    clip: unset;
+    height: unset;
+    overflow: unset;
+    width: auto;
+    position: unset !important;
+    word-wrap: unset !important;
+}
+
+.category-content-section .entry-title ~ .entry-meta {
+    font-size: 16px;
+    font-size: 1rem;
+    margin-top: 4px;
+    opacity: 0.6;
+}

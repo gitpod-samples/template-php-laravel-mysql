@@ -1,0 +1,188 @@
+/**
+ * 9.0 - Alignments
+ */
+
+.alignleft {
+    float: left;
+    margin: 0.3181818181818182em 1.818181818181818em 1.272727272727273em 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0.3181818181818182em 0 1.272727272727273em 1.818181818181818em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto 1.272727272727273em;
+}
+
+blockquote.alignleft {
+    margin: 0.3181818181818182em 1.818181818181818em 1.272727272727273em 0;
+}
+
+blockquote.alignright {
+    margin: 0.3181818181818182em 0 1.272727272727273em 1.818181818181818em;
+}
+
+blockquote.aligncenter {
+    margin-bottom: 0.9545454545454545em;
+}
+
+.alignright {
+    @include media(mobile_horizontal) {
+        float: right;
+    }
+}
+
+.alignleft {
+    @include media(mobile_horizontal) {
+        float: left;
+    }
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-aligned-right .entry-container {
+    text-align: center;
+    @include media(mobile_horizontal) {
+        text-align: right;
+    }
+}
+
+.text-aligned-left .entry-container {
+    text-align: center;
+    @include media(mobile_horizontal) {
+        text-align: left;
+    }
+}
+
+.text-aligned-center .entry-container {
+    text-align: center;
+}
+
+.custom-header-content.content-aligned-right .entry-container {
+    margin-left: auto;
+}
+
+.no-header-media-image .custom-header-content.content-aligned-left {
+    margin-left: 0;
+}
+
+.no-header-media-image .custom-header-content.content-aligned-right {
+    margin-right: 0;
+}
+
+.custom-header-content.content-aligned-center .entry-container {
+    margin: 0 auto;
+}
+
+.custom-header-content.text-aligned-right .entry-header-image img {
+    margin-left: auto;
+}
+
+.custom-header-content.text-aligned-center .entry-header-image img {
+    margin: 0 auto;
+}
+
+.slider-content-wrapper.content-aligned-right .entry-container-wrap,
+.hero-content-wrapper.section.content-aligned-right .hentry .entry-container.full-width {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.slider-content-wrapper.content-aligned-center .entry-container-wrap,
+.hero-content-wrapper.section.content-aligned-center .hentry .entry-container.full-width {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider-content-wrapper.content-aligned-right.text-aligned-right .entry-container-wrap {
+    text-align: center;
+    @include media(mobile_horizontal) {
+        text-align: right;
+    }
+}
+
+.slider-content-wrapper.content-aligned-right.text-aligned-left .entry-container-wrap {
+    text-align: center;
+    @include media(mobile_horizontal) {
+        text-align: left;
+    }
+}
+
+.slider-content-wrapper.content-aligned-left.text-aligned-right .entry-container-wrap {
+    text-align: center;
+    @include media(mobile_horizontal) {
+        text-align: right;
+    }
+}
+
+.slider-content-wrapper.content-aligned-left.text-aligned-left .entry-container-wrap {
+    text-align: center;
+    @include media(mobile_horizontal) {
+        text-align: left;
+    }
+}
+
+.slider-content-wrapper .entry-container,
+.hero-content-wrapper.section.text-aligned-center .hentry .entry-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    @include media(mobile_horizontal) {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    @include media(wide) {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+.hero-content-wrapper.section.content-aligned-left .section-content-wrap .hentry .entry-container {
+    float: left;
+    @include media(mobile_horizontal) {
+        padding-left: 0;
+        padding-right: 60px;
+    }
+    @include media(wide) {
+        padding-left: 0;
+        padding-right: 120px;
+    }
+}
+
+.hero-content-wrapper.section.content-aligned-left.text-aligned-right .hentry .entry-container,
+.hero-content-wrapper.section.content-aligned-left.text-aligned-left .hentry .entry-container {
+    float: left;
+}
+
+.hero-content-wrapper.section.content-aligned-left .wrapper .hentry .featured-content-image {
+    right: 0;
+    left: auto;
+}
+
+.slider-content-wrapper.content-aligned-right .section-heading-wrapper {
+    order: 1;
+    @include media(mobile_horizontal) {
+        order: 2;
+    }
+}
+
+.rtl .slider-content-wrapper.content-aligned-left .hentry {
+    flex-direction: row-reverse;
+}
+
+.rtl .slider-content-wrapper.content-aligned-right .hentry {
+    flex-direction: row;
+}
+
+.slider-content-wrapper.content-aligned-right .hentry {
+    flex-direction: row-reverse;
+}

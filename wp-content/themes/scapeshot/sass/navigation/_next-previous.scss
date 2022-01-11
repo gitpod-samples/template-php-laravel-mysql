@@ -1,0 +1,194 @@
+/**
+ * 7.4 - Post Navigation
+ */
+
+.post-navigation {
+    clear: both;
+}
+
+.post-navigation a {
+    display: block;
+    text-decoration: none;
+}
+
+.nav-previous a:hover .meta-nav svg,
+.nav-previous a:focus .meta-nav svg {
+    margin-right: 10px;
+}
+
+.nav-next a:hover .meta-nav svg,
+.nav-next a:focus .meta-nav svg {
+    margin-left: 10px;
+}
+
+.post-navigation .meta-nav {
+    display: block;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    line-height: 1.75;
+    letter-spacing: 1px;
+}
+
+.post-navigation .meta-nav svg {
+    top: -1px;
+    @include transition(0.3s);
+}
+
+.nav-previous .meta-nav svg {
+    margin-right: 5px;
+}
+
+.nav-next .meta-nav svg {
+    margin-left: 5px;
+}
+
+.post-navigation .post-title {
+    font-weight: 700;
+    display: block;
+    text-rendering: optimizeLegibility;
+}
+
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.post-navigation .nav-links .nav-previous + .nav-next {
+    margin-top: 28px;
+}
+
+.pagination .prev,
+.pagination .next {
+    width: 100%;
+}
+
+.image-navigation,
+.comment-navigation {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.6153846154;
+    margin: 0 7.6923% 2.1538461538em;
+    padding: 1.0769230769em 0;
+}
+
+.comment-navigation {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.comments-title + .comment-navigation {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.image-navigation .nav-previous:not(:empty),
+.image-navigation .nav-next:not(:empty),
+.comment-navigation .nav-previous:not(:empty),
+.comment-navigation .nav-next:not(:empty) {
+    display: inline-block;
+}
+
+.image-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before,
+.comment-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before {
+    content: "\002f";
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 0.538461538em;
+}
+
+.posts-navigation,
+.pagination,
+#content #infinite-handle {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#content #infinite-handle {
+    display: block;
+}
+
+#content #infinite-handle span {
+    background: none transparent;
+    display: inline-block;
+    padding: 0;
+}
+
+#content #infinite-handle span,
+#content #infinite-handle span button,
+.navigation.posts-navigation .nav-links a,
+.navigation.posts-navigation .nav-previous,
+.navigation.posts-navigation .nav-next {
+    width: 100%;
+}
+
+.infinite-loader #ctis-loading img {
+    margin: 0 auto;
+    width: 35px;
+}
+
+.infinite-loader {
+    clear: both;
+}
+
+.posts-navigation a {
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.pagination .prev,
+.pagination .next {
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.pagination .page-numbers {
+    display: inline-block;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+
+.pagination .page-numbers.current {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.posts-navigation a {
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#content #infinite-handle {
+    z-index: 2;
+}
+
+#content #infinite-handle,
+#content .infinite-loader,
+#content .navigation.posts-navigation {
+    cursor: pointer;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+#content .navigation.posts-navigation {
+    cursor: default;
+}

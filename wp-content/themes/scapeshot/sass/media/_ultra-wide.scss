@@ -1,0 +1,299 @@
+/**
+ * Width >= 1920px
+ */
+
+@include media(ultra-wide) {
+
+	#stats-section.style-one .section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+        margin-right: 90px;
+    }
+
+    .stats-section.style-three .sub-title {
+        font-size: 90px;
+        font-size: 5.625rem;
+    }
+
+    #sticky-playlist-section .mejs-sticky-playlist-container {
+	    -webkit-box-flex: 0;
+	    -ms-flex: 0 1 90%;
+	    flex: 0 1 90%;
+	}
+
+    #sticky-playlist-section .wp-playlist-current-item .wp-playlist-item-title {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    .app-section .app-wrap {
+    	margin-top: 49px;
+    }
+
+    .events-section.single-layout .date-month-year {
+        font-size: 21px;
+        font-size: 1.3125rem;
+    }
+
+    #timeline-section .hentry {
+        margin-bottom: 84px;
+    }
+
+    #timeline-section .hentry-inner {
+        margin: 0 -55px;
+    }
+
+    #timeline-section .post-thumbnail {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    #timeline-section .entry-container {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .category-content-section .entry-container {
+        bottom: 28px;
+        left: 28px;
+        right: 28px;
+        width: calc(100% - 56px);
+    }
+
+    .category-content-section .entry-title {
+        font-size: 24px;
+        font-size: 1.5rem;
+    }
+
+    .woocommerce-posts-wrapper .entry-title,
+    .archive .archive-posts-wrapper .entry-title,
+    .search .archive-posts-wrapper .entry-title,
+    .blog:not(.home) .archive-posts-wrapper .entry-title {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    .home .post-wrapper .entry-meta,
+    #feature-slider-section .entry-meta  {
+        margin-bottom: 17px;
+    }
+
+    .view-more .button,
+    .header-media .more-link .readmore,
+    #feature-slider-section .more-link .readmore,
+    .hero-section .more-link .readmore,
+    #promotion-section .more-link .readmore,
+    #content #infinite-handle span button,
+    nav.navigation.posts-navigation .nav-links a,
+    .catch-instagram-feed-gallery-widget-wrapper .button,
+    #footer-newsletter .ewnewsletter .hentry form input[type="submit"],
+    .pagination .page-numbers.prev,
+    .pagination .page-numbers.next {
+        font-size: 22px;
+        font-size: 1.375rem;
+        padding: 27px 56px;
+    }
+
+    .home .archive-posts-wrapper .entry-title,
+    #footer-instagram .widget-title,
+    .contact-content-wrapper .contact-us-form .entry-title,
+    .section-title,
+    .home .header-media .entry-title,
+    #feature-slider-section .entry-title {
+        font-size: 70px;
+        font-size: 4.375rem;
+    }
+
+    .home .post-wrapper .more-link {
+        margin-top: 42px;
+    }
+
+    .archive .section-content-wrapper .post-wrapper .post-thumbnail,
+    .search .section-content-wrapper .post-wrapper .post-thumbnail,
+    .blog:not(.home) .section-content-wrapper .post-wrapper .post-thumbnail {
+        margin-bottom: 42px;
+    }
+
+     .archive .archive-post-wrap .post-wrapper,
+     .search .archive-post-wrap .post-wrapper,
+     .blog:not(.home) .archive-post-wrap .post-wrapper {
+        margin-bottom: 56px;
+        padding-bottom: 56px;
+     }
+
+    .archive .archive-post-wrap .hentry.has-post-thumbnail  .sticky-post,
+    .search .archive-post-wrap .hentry.has-post-thumbnail .sticky-post {
+        left: 35px;
+        top: 35px;
+    }
+
+    .section-heading-wrapper,
+    #footer-instagram .widget-title {
+        padding-bottom: 77px;
+    }
+
+    .header-media .more-link,
+    #feature-slider-section .more-link {
+        margin-top: 35px;
+    }
+
+    #feature-slider-section:hover .owl-prev {
+        left: 60px;
+    }
+
+    #feature-slider-section:hover .owl-next {
+        right: 60px;
+    }
+
+
+    #feature-slider-section .owl-carousel .owl-dots,
+    .sticky-playlist-enabled.scrolled #feature-slider-section .owl-carousel .owl-dots {
+        bottom: 75px;
+    }
+
+    #feature-slider-section .owl-carousel .owl-dots button {
+        margin: 0 20px;
+    }
+
+    .section {
+        padding: 105px 0 63px 0;
+    }
+
+    .home .site-content {
+        padding: 105px 0 0 0;
+    }
+
+    body:not(.home) .site-content {
+        padding: 91px 0 35px 0;
+    }
+
+    .header-media .scroll-down,
+    #feature-slider-section .scroll-down {
+        bottom: 63px;
+        right: 100px;
+    }
+
+    body.sticky-playlist-enabled.scrolled #page .header-media .scroll-down,
+    body.sticky-playlist-enabled.scrolled #feature-slider-section .scroll-down {
+        bottom: 63px;
+    }
+
+    #floating-social {
+        left: 65px;
+    }
+
+    #floating-social .social-navigation a {
+        font-size: 22px;
+        font-size: 1.375rem;
+        margin: 10px;
+        padding: 17px;
+        height: 64px;
+        width: 64px;
+    }
+
+    .has-social-floating #feature-slider-section .hentry.content-align-left.text-align-left .entry-container,
+    .has-social-floating #feature-slider-section .hentry.content-align-left.text-align-center .entry-container,
+    .has-social-floating #feature-slider-section .hentry.content-align-left.text-align-right .entry-container,
+    .has-social-floating .custom-header-content.content-align-left.text-align-left,
+    .has-social-floating .custom-header-content.content-align-left.text-align-center,
+    .has-social-floating .custom-header-content.content-align-left.text-align-right {
+            padding-left: 0;
+    }
+
+    .sidebar .widget,
+    body:not(.home) .content-area .site-main,
+    .single .site-main .hentry,
+    .page .site-main .hentry {
+        margin-bottom: 56px;
+    }
+
+    .author-info,
+    .comments-area  ,
+    .single .site-main .entry-footer,
+    .page .site-main .entry-footer {
+        margin-top: 56px;
+    }
+
+    .footer-widget-area {
+        padding: 42px 0;
+    }
+
+    .navigation-full-screen .site-header-main .wrapper {
+        padding: 35px 100px;
+    }
+
+    #fullscreen-menu-right-wrap .secondary-navigation + #social-menu-wrapper,
+    .full-screen-text-wrapper {
+        margin-top: 42px;
+    }
+
+    .custom-header-content .site-header-logo img,
+    #feature-slider-section .slider-image-logo img {
+        max-width: 570px;
+    }
+
+    body:not(.home) .custom-header {
+        padding-top: 145px;
+    }
+
+    .hero-content-wrapper .entry-summary,
+    .hero-content-wrapper .entry-content {
+        margin: 35px 0 0;
+    }
+
+    #stats-section.style-three .section-content-wrapper.layout-three .hentry-inner {
+        padding-left: 77px;
+        padding-right: 37px;
+    }
+
+    .logo-slider-section.style-two .section-description {
+        margin-top: 42px;
+    }
+
+    .logo-slider-section.style-two .heading-right {
+        margin-left: 91px;
+    }
+
+    .logo-slider-section .section-subtitle-after-title {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    #testimonial-content-section.style-two .section-content-wrapper .entry-content:before {
+        font-size: 320px;
+        font-size: 20rem;
+    }
+
+    #testimonial-content-section.style-two .section-content-wrapper .entry-content {
+        margin-top: 56px;
+    }
+
+    #testimonial-content-section.style-two .owl-prev {
+        padding-right: 56px;
+    }
+
+    #testimonial-content-section.style-two .owl-next {
+        padding-left: 56px;
+    }
+
+    .team-tab li span {
+        font-size: 36px;
+        font-size: 2.25rem;
+    }
+
+    .team-tab .ui-tabs-panel {
+        padding-left: 80px;
+    }
+
+    .team-tab .ui-tabs-nav {
+        margin-top: 77px;
+        padding-right: 80px;
+    }
+
+    .color-scheme-rockmusic #feature-slider-section .section-subtitle,
+    .color-scheme-rockmusic .custom-header .section-subtitle {
+        margin-bottom: 28px;
+    }
+
+    .section.no-section-heading {
+        padding-top: 105px;
+    }
+}

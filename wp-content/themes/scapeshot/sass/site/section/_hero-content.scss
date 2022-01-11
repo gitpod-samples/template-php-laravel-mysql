@@ -1,0 +1,62 @@
+/**
+ * 14.3 - Hero Content
+ */
+
+#hero-section {
+    border: none;
+    text-align: center;
+}
+
+#hero-section .wrapper {
+    padding: 0 30px;
+}
+
+#hero-section .hentry {
+    padding: 0;
+    position: relative;
+}
+
+.hero-content-wrapper .hentry-inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.hero-content-wrapper .post-thumbnail-background {
+    -webkit-box-shadow: 0px 1px 30px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 30px rgba(0,0,0,0.1);
+    content: "";
+    padding-bottom: 100%;
+    position: relative;
+    margin: 0;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
+
+.hero-content-wrapper .entry-container {
+    padding: 28px 0 0;
+    margin: 0;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
+
+.hero-section .more-link .readmore svg {
+    display: none;
+}
+
+.hero-section .more-link {
+    margin-top: 28px;
+}
+
+.hero-section .section-heading-wrapper,
+.app-section .section-heading-wrapper,
+.promotion-section .section-heading-wrapper {
+    padding: 0;
+    text-align: inherit;
+}

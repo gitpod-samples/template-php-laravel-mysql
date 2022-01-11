@@ -1,0 +1,138 @@
+/**
+ * 4.0 - Elements
+ */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin: 0 0 1.75em;
+}
+
+ul,
+ol {
+    margin: 0 0 1.75em 1.5em;
+    padding: 0;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+}
+
+dl {
+    margin: 0 0 1.75em;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dd {
+    margin: 0 1.5em 1.75em;
+}
+
+img {
+    height: auto;/* Make sure images are scaled correctly. */
+    max-width: 100%;/* Adhere to container width. */
+    vertical-align: middle;
+}
+
+del {
+    opacity: 0.8;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.4em;
+    table-layout: fixed;/* Prevents HTML tables from becoming too wide */
+    width: 100%;
+}
+
+caption {
+    border-width: 1px 1px 0 1px;
+    font-weight: 700;
+    text-align: center;
+}
+
+th,
+td {
+    border-width: 0 1px 1px 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+th {
+    font-weight: 700;
+}
+
+thead th {
+    border-width: 0 1px 1px 0;
+}
+
+caption,
+th,
+td {
+    padding: 0.667em;
+}
+
+.displaynone {
+    display: none;
+}
+
+.displayblock {
+    display: block;
+}
+
+.cover-link {
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.drop-cap:first-letter {
+    float: left;
+    font-size: 92px;
+    font-size: 5.75rem;
+    font-weight: bold;
+    line-height: 0.6;
+    margin: 14px 21px 7px -3px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}

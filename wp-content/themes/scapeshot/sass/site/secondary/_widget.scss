@@ -1,0 +1,290 @@
+/**
+ * 11.0 - Widgets
+ */
+
+.site-fooer .widget .widget-title {
+    line-height: 1.5;
+}
+
+.widget .widget-title:empty {
+    margin-bottom: 0;
+}
+
+.widget ul,
+.widget ol {
+    list-style: none;
+    margin-left: 0;
+}
+
+.widget-area li {
+    line-height: 2;
+}
+
+.widget .hentry .entry-title {
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 7px 0;
+}
+
+.ew-archive li {
+    display: list-item;
+}
+
+/* Categories widget */
+
+.widget_categories ul,
+.widget_archive ul,
+.ew-archive ul,
+.ew-category ul {
+    text-align: left;
+}
+
+.widget_categories ul li > span,
+.widget_archive ul li > span,
+.ew-archive ul li > span,
+.ew-category ul li > span {
+    float: right;
+}
+
+.sidebar .widget_categories ul li a,
+.sidebar .widget_archive ul li a,
+.sidebar .ew-archive ul li a,
+.sidebar .ew-category ul li a,
+.sidebar .widget_nav_menu ul li a {
+    padding-left: 4px;
+}
+
+.widget-area .widget ul:not(.social-links-menu) li {
+    margin-bottom: 12px;
+}
+
+.ew-archive ul a,
+.ew-categories ul a {
+    float: none;
+}
+
+.sidebar.widget-area .widget ul:not(.social-links-menu) li {
+    list-style: disc;
+    list-style-position: inside;
+}
+
+/* Calendar widget */
+
+.widget.widget_calendar table {
+    margin: 0;
+}
+
+.widget_calendar td,
+.widget_calendar th {
+    line-height: 3;
+    padding: 0;
+    text-align: center;
+}
+
+.widget_calendar caption {
+    font-weight: 600;
+}
+
+.widget_calendar tbody a {
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Recent Posts widget */
+
+.widget-area .gallery {
+    margin: 0;
+}
+
+.widget_recent_entries .post-date {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    line-height: 1.615384615;
+    margin-bottom: 0.538461538em;
+}
+
+.widget_recent_entries li:last-child .post-date {
+    margin-bottom: 0;
+}
+
+/* RSS widget */
+
+.widget_rss .rsswidget img {
+    margin-top: -0.375em;
+}
+
+.widget_rss .rss-date,
+.widget_rss cite {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-style: normal;
+    line-height: 1.615384615;
+    margin-bottom: 0.538461538em;
+}
+
+.widget_rss .rssSummary:last-child {
+    margin-bottom: 2.1538461538em;
+}
+
+.widget_rss li:last-child :last-child {
+    margin-bottom: 0;
+}
+
+.sidebar .more-link .readmore,
+.ew-about .more-link {
+    line-height: 1.62;
+    text-transform: uppercase;
+}
+
+.ew-about .more-link {
+    font-weight: 700;
+}
+
+/* Tag Cloud widget */
+
+.tagcloud a {
+    border: none;
+    display: inline-block;
+    line-height: 1;
+    margin: 0 7px 7px 0;
+    padding: 7px 14px;
+    border: 1px solid;
+}
+
+.tagcloud a:hover,
+.tagcloud a:focus {
+    outline: 0;
+}
+
+#featured-grid-content .grid-box:hover .caption>.vcenter {
+    -webkit-transform: translateY(-50%) scale(1);
+    -ms-transform: translateY(-50%) scale(1);
+    transform: translateY(-50%) scale(1);
+}
+
+#footer-instagram .widget {
+    padding: 0;
+}
+
+.widget-area .catch-instagram-feed-gallery-widget-wrapper .button {
+    margin-top: 21px;
+    border: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+    margin: 0;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+    width: 16.666%;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(3n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(3n+1) {
+    clear: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(6n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(6n+1) {
+    clear: both;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .button {
+    margin: 42px auto 0;
+}
+
+.widget-area .date-label {
+    display: none;
+}
+
+/* Footer Newsletter */
+
+.footer-newsletter:before,
+.footer-newsletter:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+#footer-newsletter .wrapper {
+    max-width: 1920px;
+}
+
+#footer-newsletter .widget {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-newsletter .widget-inner {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+#footer-newsletter .ewnewsletter .widget-inner-wrap {
+    padding: 0;
+    margin: 0;
+}
+
+#footer-newsletter .ewnewsletter .hentry {
+    text-align: left;
+    margin-bottom: 42px;
+}
+
+.ew-newsletter-content-container >:last-child {
+    margin-bottom: 0;
+}
+
+.footer-newsletter .ew-newsletter-image-container {
+    margin-bottom: 21px;
+}
+
+.widget-area .left .featured-image,
+.widget-area .right .featured-image {
+    width: 21%;
+}
+
+.widget-area .left .entry-container,
+.widget-area .right .entry-container {
+    width: 79%;
+}
+
+/* UI Tabs */
+.widget .ui-state-default,
+.widget .ui-widget-content .ui-state-default,
+.widget .ui-widget-header .ui-state-default,
+.widget .ui-tabs .ui-tabs-panel {
+    background-color: transparent;
+}
+
+.widget.ui-state-active,
+.widget.ui-widget-content .ui-state-active,
+.widget.ui-widget-header .ui-state-active,
+.widget.ui-tabs .ui-tabs-panel {
+    border: none;
+}
+
+.widget .ui-tabs .ui-tabs-panel {
+    padding: 0;
+}
+
+.widget .ui-tabs .ui-tabs-nav li a {
+    font-weight: 600;
+    font-size: 13px;
+    font-size: .8125rem;
+    line-height: 1.615384615384615;
+    outline: 0;
+    padding: 0 7px 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#scrollup {
+    display: none;
+}

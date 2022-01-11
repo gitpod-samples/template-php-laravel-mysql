@@ -1,0 +1,39 @@
+#customize-controls .control-section-upgrade-button .accordion-section-title:hover,
+#customize-controls .control-section-upgrade-button .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-upgrade-button .accordion-section-title .button:hover,
+.control-section-upgrade-button .accordion-section-title .button:focus {
+	background: none #449d44;
+	border-color: #398439;
+	box-shadow: none;
+	color: #fff;
+}
+
+.control-section-upgrade-button .accordion-section-title .button {
+	background: none #5cb85c;
+	border-color: #4cae4c;
+	box-shadow: none;
+	clear: both;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	font-weight: 400;
+	height: auto;
+	margin: 7px 0 0;
+	padding: 7px 14px;
+	text-align: center;
+	width: 100%;
+}
+
+.control-section-upgrade-button .accordion-section-title {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+}
+
+.rtl .control-section-upgrade-button .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}

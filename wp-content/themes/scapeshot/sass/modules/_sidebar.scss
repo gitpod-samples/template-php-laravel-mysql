@@ -1,0 +1,27 @@
+/**
+ * 12.5 - Sidebar
+ */
+
+.widget .hentry {
+	float: left;
+	width: 100%;
+}
+
+.widget a {
+	text-decoration: none;
+}
+
+.sidebar .widget {
+	clear: both;
+	margin-bottom: 35px;
+	padding: 28px;
+}
+
+.sidebar .widget-title,
+.sidebar .widget .wp-block-group h2 {
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.56;
+	text-transform: capitalize;
+}

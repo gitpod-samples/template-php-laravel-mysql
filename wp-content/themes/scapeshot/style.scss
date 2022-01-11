@@ -1,0 +1,136 @@
+/*
+Theme Name: ScapeShot
+Theme URI: https://catchthemes.com/themes/scapeshot/
+Author: Catch Themes
+Author URI: https://catchthemes.com/
+Description: ScapeShot is a responsive and visually aesthetic Fullscreen Photography WordPress theme. It is ideal for all kinds of photography websites, blogs, and other businesses related. Photographers, Photo Bloggers, and businesses related to the photography field can benefit from this theme. The theme is fully responsive and your website will look great no matter what device your visitors are using. The photography design and versatile customization capabilities in ScapeShot allows you to create professional and sophisticated photo-centric websites in just a matter of minutes. ScapeShot comes with a charming, user-friendly interface and a series of practical features to create the best Photography site with the full screen layout. The features include Custom Header, Featured Content, Hero Content, Portfolio, Services, Slider, Team, Testimonials, and more. All of the features provided in the theme are highly customizable and extremely easy to use. No prior coding knowledge is required to benefit from this theme. Download the ScapeShot theme today and provide your business the exposure it deserves! For more information, check out Theme Instructions at https://catchthemes.com/themes/scapeshot/#theme-instructions and Demo at https://catchthemes.com/demo/scapeshot
+Requires at least: 5.5
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 1.0.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: grid-layout, one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, blog, photography, portfolio
+Text Domain: scapeshot
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Variables
+	1.1 - Color
+	1.2 - Fonts
+	1.3 - Structure
+	1.4  -Transition
+2.0 - Normalize
+3.0 - Mixin
+	3.1 - Mixin
+4.0 Modules
+	4.1 - Alignments
+	4.2 - Blocks
+	4.3 - Clearings
+5.0 - Forms
+	5.1 - Buttons
+	5.2 - Fields
+6.0 - Navigation
+	6.1 - Next Previous
+	6.2 - Social Menu Navigation
+	6.3 - Menus
+7.0 Typography
+	7.1 - Font Family
+	7.2 - Font Size
+	7.3 - Heading
+8.0 Sites
+	8.1 - Primary
+		8.1.1 - Archives
+		8.1.2 - Comments
+	8.2.0 - Secondary
+		8.2.1 - Widget
+	8.3.0 - Section
+		8.3.1 - Header
+		8.3.2 - Hero Content
+		8.3.3 - Promotional
+		8.3.4 - Testimonials
+		8.3.5 - Blog
+		8.3.6 - Newsletter
+		8.3.7 - Portfolio
+		8.3.8 - Feature Slider
+		8.3.9 - Footer
+		8.3.10 - Woocommerce
+		8.3.11 - Team
+		8.3.12 - Logo Slider
+		8.3.13 - Service
+		8.3.14 - Contact
+		8.3.15 - Feature Content
+		8.3.16 - Stats
+		8.3.17 - Gallery
+9.0 - Elements
+	9.1 - Lists
+	9.2 - Tables
+
+10.0 - Media
+	10.1 - mobile-horizontal
+	10.2 - tablet
+	10.3 - desktop
+	10.4 - wide-width
+	10.5 - large
+	10.6 - ultra_wide
+
+11.0 - Color Selection
+--------------------------------------------------------------*/
+
+
+//** 1.0 - Variables **//
+
+@import 'sass/variables/variables';
+
+
+//** 2.0 - Normalize **//
+
+@import 'sass/normalize';
+
+
+//** 3.0 - Mixin **//
+
+@import 'sass/mixin/mixin';
+
+
+//** 4.0 Modules **//
+
+@import 'sass/modules/modules';
+
+
+//** 5.0 - Forms **//
+
+@import 'sass/forms/forms';
+
+//** 7.0 Typography **//
+
+@import 'sass/typography/typography';
+
+
+//** 8.0 Sites **//
+
+@import 'sass/site/site';
+
+
+//** 9.0 - Elements **//
+
+@import 'sass/elements/core';
+
+//** 6.0 - Navigation **//
+
+@import 'sass/navigation/navigation';
+
+//** 10.0 - Media **//
+
+@import 'sass/media/media';
+
+
+//** 11.0 - Color Selection **//
+
+@import 'sass/color-section';
+

@@ -1,0 +1,120 @@
+/**
+ * 8.3.19 - Pricing
+ */
+
+.pricing-section .hentry-inner {
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.pricing-section .section-content-wrapper .post-thumbnail {
+    margin-bottom: 0;
+}
+
+.pricing-section .section-content-wrapper .entry-content,
+.pricing-section .section-content-wrapper .entry-summary {
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.33;
+    letter-spacing: normal;
+    margin-top: 0;
+    padding: 35px 30px;
+}
+
+.pricing-section .section-content-wrapper .entry-content li,
+.pricing-section .section-content-wrapper .entry-summary li {
+    line-height: 2.33;
+    list-style: none;
+}
+
+.pricing-section .entry-header {
+    padding: 28px 30px;
+}
+
+.pricing-section .entry-title {
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+.package-price {
+    padding: 21px 30px;
+    position: relative;
+}
+
+.package-amount {
+    font-size: 42px;
+    font-size: 2.625rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    position: relative;
+    z-index: 2;
+}
+
+.package-price sup {
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    margin-right: 10px;
+    z-index: 2;
+}
+
+.package-month {
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    position: relative;
+    z-index: 2;
+}
+
+.pricing-section .more-link .readmore svg {
+    display: none;
+}
+
+.package-price:before {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.03;
+}
+
+.pricing-section .highlight .package-price:before {
+    opacity: 0.06;
+}
+
+.pricing-section .highlight .entry-meta a,
+.pricing-section .highlight .entry-title a:hover,
+.pricing-section .highlight .entry-title a:focus {
+    opacity: 0.6;
+}
+
+.pricing-section .highlight .entry-meta a:hover,
+.pricing-section .highlight .entry-meta a:focus {
+    opacity: 1;
+}

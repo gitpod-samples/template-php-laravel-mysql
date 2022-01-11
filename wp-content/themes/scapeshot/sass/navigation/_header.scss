@@ -1,0 +1,419 @@
+/**
+ * 12.1 - Header
+ */
+
+.site-header {
+	position: relative;
+}
+
+.absolute-header .site-header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+body:not(.home) .custom-header .scroll-down {
+	display: none;
+}
+
+.site-header-logo ~ .section-title-wrapper {
+    margin-top: 21px;
+}
+
+.site-header-main .wrapper {
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 14px 23px;
+	position: relative;
+}
+
+.navigation-full-screen .site-header-main .wrapper {
+	 -ms-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+}
+
+.site-branding {
+	/* Avoid overflowing wide custom logo in small screens in Firefox and IEs */
+	margin: 0 auto 0 0;
+	max-width: 100%;
+	min-width: 0;
+	text-align: left;
+	overflow: hidden;
+	width: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 7px;
+	z-index: 2;
+}
+
+.custom-logo {
+	display: block;
+}
+
+.wp-custom-logo .custom-logo-link {
+	display: block;
+}
+
+.site-header-menu {
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: auto;
+}
+
+.site-title {
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.1em;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.site-title a {
+	text-decoration: none;
+}
+
+.site-description {
+	font-weight: normal;
+	letter-spacing: 0;
+	line-height: 1.4;
+	margin: 4px 0 0 0;
+	opacity: 0.79;
+	text-transform: capitalize;
+}
+
+.custom-header {
+	clear: both;
+	position: relative;
+	transition: padding-top 0.3s;
+}
+
+body:not(.home) .custom-header {
+	padding-top: 91.2px;
+}
+
+.custom-header .post-thumbnail {
+	margin: 0;
+}
+
+.custom-header-content-wrapper {
+	transition-delay: 0.3s;
+}
+
+.has-header-video .custom-header-media .wp-custom-header img {
+	display: none;
+}
+
+.has-header-image.home .custom-header-media,
+.has-header-video.home .custom-header-media,
+.has-header-text.home .custom-header-media {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-webkit-justify-content: center;
+	-ms-flex-pack: end;
+	justify-content: center;
+	height: 100%;
+	min-height: 100vh;
+	width: 100%;
+}
+
+.custom-header-content {
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.custom-header-content,
+.entry-container .content-wrapper {
+	text-align: center;
+}
+
+.section-subtitle,
+.site-header-logo,
+.slider-image-logo {
+	margin-bottom: 14px;
+}
+
+.custom-header-content .site-header-logo img,
+#feature-slider-section .slider-image-logo img {
+	margin: 0 auto;
+	width: auto;
+	max-width: 250px;
+	transition: width 0.3s;
+}
+
+.has-header-media:not(.home) .custom-header-media {
+	position: relative;
+}
+
+.header-media-text-disabled .custom-header-media .wp-custom-header img {
+	display: block;
+	position: relative;
+}
+
+.custom-header-overlay {
+    bottom: 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.custom-header .wrapper:before {
+		background-position: center;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.has-header-media .custom-header-media .wp-custom-header img {
+	display: none;
+}
+
+.has-header-video .custom-header-media .wp-custom-header video,
+.has-header-video .custom-header-media .wp-custom-header iframe {
+	position: absolute;
+	height: auto;
+	left: 50%;
+	max-width: 1000%;
+	min-height: 100%;
+	min-width: 100%;
+	min-width: 100vw; /* vw prevents 1px gap on left that 100% has */
+	width: auto;
+	top: 50%;
+	padding-bottom: 1px; /* Prevent header from extending beyond the footer */
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/* For browsers that support 'object-fit' */
+@supports ( object-fit: cover ) {
+	.has-header-video .custom-header-media .wp-custom-header video,
+	.has-header-video .custom-header-media .wp-custom-header iframe {
+		height: 100%;
+		left: 0;
+		-o-object-fit: cover;
+		object-fit: cover;
+		top: 0;
+		-ms-transform: none;
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+		width: 100%;
+	}
+}
+
+/* Hides div in Customizer preview when header images or videos change. */
+body:not(.has-header-image):not(.has-header-video):not(.has-header-text)  .custom-header-media {
+	display: none;
+}
+
+.custom-header-media .wp-custom-header-video-button { /* Specificity prevents .color-dark button overrides */
+	border-radius: 50%;
+	font-size: 18px;
+	font-size: 1.125rem;
+	opacity: 0;
+	overflow: hidden;
+	padding: 7px 13px;
+	position: absolute;
+	left: 49%;
+	bottom: 35px;
+	z-index: 100;
+	height: 44px;
+	width: 44px;
+}
+
+.header-media:hover .wp-custom-header-video-button {
+	opacity: 1;
+}
+
+body:not(.navigation-full-screen).wp-custom-logo .site-identity {
+    display: none;
+}
+
+.navigation-full-screen.wp-custom-logo .custom-logo-link {
+	margin-right: 14px;
+}
+
+.navigation-full-screen.wp-custom-logo .custom-logo-link,
+.navigation-full-screen.wp-custom-logo .site-identity {
+    display: block;
+}
+
+.navigation-full-screen.wp-custom-logo .site-identity {
+	text-align: left;
+}
+
+.scroll-down {
+	cursor: pointer;
+	font-weight: normal;
+ 	font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+	padding: 6px 3px 6px 10px;
+	position: absolute;
+	z-index: 4;
+}
+
+.scroll-down,
+body.sticky-playlist-enabled.scrolled #page .header-media .scroll-down,
+body.sticky-playlist-enabled.scrolled #feature-slider-section .scroll-down {
+	bottom: 21px;
+}
+
+.header-media .scroll-down {
+	left: 21px;
+}
+
+#feature-slider-section .scroll-down {
+	display: none;
+}
+
+.scroll-down > span {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.scroll-down > svg {
+	font-size: 23px;
+	font-size: 1.4375rem;
+	top: -2px;
+}
+
+.scroll-down:focus {
+	outline: thin dotted;
+}
+
+/*Scroll Down Effect*/
+.scroll-down:before,
+.scroll-down:after {
+  content:"";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  transition: all 0.2s linear;
+  opacity: 0.8;
+}
+
+.scroll-down > span:before,
+.scroll-down > span:after {
+  content:"";
+  width:1px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  opacity: 0.8;
+}
+
+.scroll-down:hover::before,
+.scroll-down:hover::after {
+  width: 100%;
+}
+
+.scroll-down:hover span:before,
+.scroll-down:hover span:after {
+  height: 100%;
+}
+
+.scroll-down:after {
+  left: 0;
+  bottom: 0;
+  transition-delay: 0.6s;
+}
+
+.scroll-down span:after {
+  transition-delay: 0.4s;
+  right: 0;
+  bottom: 0
+}
+
+.scroll-down:before {
+  right: 0;
+  top: 0;
+  transition-delay: 0.2s;
+}
+
+.scroll-down span:before {
+  transition-delay: 0s;
+  left: 0;
+  top: 0;
+}
+
+.scroll-down:hover::after {
+  transition-delay: 0s;
+}
+
+.scroll-down:hover span:after {
+  transition-delay: 0.2s;
+}
+
+.scroll-down:hover::before{
+  transition-delay: 0.4s;
+}
+
+.scroll-down:hover span:before {
+  transition-delay: 0.6s;
+}
+
+body:not(.home) .custom-header-content.content-align-left .custom-header-content-wrapper,
+body:not(.home) .custom-header-content.content-align-right .custom-header-content-wrapper,
+body:not(.home) .custom-header-content .custom-header-content-wrapper {
+	margin: 0 auto;
+}
+
+#primary-menu-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#primary-menu-wrapper > .cart-contents,
+#primary-menu-wrapper > .my-account {
+	line-height: 1;
+	padding: 13px 7px;
+}
+
+body:not(.home) .custom-header .entry-meta {
+	margin-bottom: 0;
+}

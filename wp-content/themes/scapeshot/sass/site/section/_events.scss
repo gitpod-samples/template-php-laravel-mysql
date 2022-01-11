@@ -1,0 +1,96 @@
+/**
+ * 14.6 - Events Section
+ */
+
+
+#events-section {
+	background-size: cover;
+}
+
+.events-section.single-layout .section-content-wrapper {
+	padding: 0 30px;
+}
+
+.dates-location {
+	font-weight: 600;
+}
+
+.events-section .entry-meta a {
+	opacity: 1;
+	display: inline-block;
+}
+
+.events-section.single-layout .hentry {
+	border-bottom: 1px solid;
+	padding-bottom: 35px;
+}
+
+.date-month-year span {
+    display: block;
+}
+
+.events-section .entry-header {
+	margin: 0;
+}
+
+.events-section .entry-title {
+	line-height: 1.46;
+}
+
+.events-section .entry-meta a,
+.events-section .entry-meta a:hover,
+.events-section .entry-meta a:focus {
+	text-decoration: none;
+}
+
+.events-section.single-layout .entry-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.events-section.single-layout .entry-meta .entry-date {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.events-section.single-layout .entry-meta {
+	padding-bottom: 28px;
+	padding-right: 28px;
+	width: 30%;
+}
+
+.events-section.single-layout .event-list-description {
+	width: 70%;
+}
+
+.events-section.single-layout .date-week-day {
+	font-size: 38px;
+	font-size: 2.375rem;
+	font-weight: 700;
+	line-height: 1;
+	margin-right: 14px;
+}
+
+.events-section.single-layout .date-month-year {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.33;
+	font-weight: 600;
+}
+
+.events-section.single-layout .entry-content,
+.events-section.single-layout .entry-summary {
+	margin-top: 14px;
+}
+
+.events-section.single-layout .location-icon {
+	display: inline-block;
+	float: left;
+	margin: 13px 10px 0 0;
+}
+
+.events-section .event-button {
+	margin-top: 21px;
+}

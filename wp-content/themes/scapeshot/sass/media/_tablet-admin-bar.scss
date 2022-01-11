@@ -1,0 +1,19 @@
+/**
+ * Width >= 783px
+ */
+
+@include media(tablet-admin-bar) {
+    .admin-bar .fullscreen-menu-inside-wrapper,
+    .admin-bar.scrolled .fullscreen-menu-inside-wrapper {
+        top: 32px;
+    }
+
+    .admin-bar .section,
+    .admin-bar.home .archive-post-wrap .hentry,
+    .admin-bar .recent-blog-content .archive-post-wrap .hentry,
+    .admin-bar #feature-slider-section .hentry-inner,
+    .admin-bar.home .header-media,
+    .admin-bar.has-header-image.home .custom-header-media {
+        min-height: calc( 100vh - 32px );
+    }
+}

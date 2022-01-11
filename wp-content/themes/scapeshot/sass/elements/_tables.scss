@@ -1,0 +1,104 @@
+table {
+	border: 1px solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+
+    @include media(tablet) {
+        table-layout: auto;
+    }
+
+	thead tr {
+		border-bottom: 1px solid;
+    }
+
+    p {
+        margin-top: 0;
+    }
+}
+
+ul li::marker {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+thead th,
+tbody th {
+	border-right: 1px solid;
+    padding: 10px 20px;
+    text-align: left;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    box-sizing:border-box;
+
+    @include media(wide) {
+        padding: 10px 28px;
+    }
+}
+
+tbody th {
+    font-weight: 400;
+}
+
+tbody td {
+    border-right: 1px solid;
+    padding: 10px 20px;
+
+    @include media(wide) {
+        padding: 10px 28px;
+    }
+}
+
+table thead th {
+    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+.calendar_wrap {
+    border-top: 0;
+    table-layout:fixed;
+
+    caption {
+        padding: 10px;
+    }
+
+    thead th, tbody th {
+        padding: 5px;
+        text-align: center;
+    }
+
+    tbody td,
+    tfoot tr td {
+        font-size: 14px;
+        font-size: 0.875rem;
+        padding: 4px;
+        text-align: center;
+
+        @include media(wide) {
+            font-size: 16px;
+            font-size: 1rem;
+            padding: 5px;
+        }
+    }
+
+    tbody tr:last-child {
+        border-top: 1px solid;
+    }
+
+    tbody tr:first-child {
+        border-bottom: 1px solid;
+    }
+}
+
+td#today {
+    font-weight: 700;
+}
+
+tfoot {
+    border-top: 1px solid;
+
+    tr td {
+        border-right: 1px solid;
+    }
+}

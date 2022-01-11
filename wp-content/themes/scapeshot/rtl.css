@@ -1,0 +1,701 @@
+/*
+Theme Name: ScapeShot
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+See: https://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Elements
+ * 3.0 - Padding/Margin
+ * 4.0 - Forms
+ * 5.0 - Navigation
+ *    5.1 - Main Menu
+ *    5.2 - Social Menu
+ * 6.0 - Widgets
+ * 7.0 - Content
+ *	  7.1 - Header
+ *	  7.2 - Posts and pages
+ *	  7.3 - Comments
+ * 8.0 - Modules
+ *	  8.1 - Slider
+ *	  8.2 - Portfolio
+ *	  8.3. - Stats
+ * 9.0 - Media Queries
+ *    9.1 - >= 640px
+ *    9.2 - >= 768px
+ *    9.3 - >= 1024px
+ *    9.4 - >= 1200px
+ */
+
+
+/**
+ * 1.0 - Normalize
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: auto;
+	margin-left: 0.4375em;
+}
+
+
+/**
+ * 2.0 - Elements
+ */
+
+ul,
+ol {
+	margin: 0 1.5em 1.75em 0;
+}
+
+ol {
+	margin-right: 1.5em;
+	margin-left: 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+
+/**
+ * 3.0 - Padding/Margin
+ */
+
+.custom-header-content.content-align-left .section-title:after {
+	margin: 28px auto 0 0;
+}
+
+.entry-footer .author img {
+	margin-right: 0;
+	margin-left: 1em;
+}
+
+.entry-meta .icon {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+#feature-slider-section .entry-container > * > * {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+
+/**
+ * 4.0 - Forms
+ */
+
+input[type="search"].search-field {
+	padding: 12px 14px 12px 63px;
+}
+
+.search-submit {
+	left: 0;
+	right: auto;
+}
+
+
+/**
+ * 5.0 - Navigation
+ */
+
+/**
+ * 5.1 - Main Menu
+ */
+
+.main-navigation ul ul {
+	margin-left: 0;
+	margin-right: 0.875em;
+}
+
+.main-navigation ul ul li {
+	text-align: right;
+}
+
+.main-navigation .menu-item-has-children > a,
+.main-navigation .page_item_has_children > a {
+	padding-left: 49px;
+    padding-right: 30px;
+}
+
+.dropdown-toggle {
+	left: 0;
+	right: auto;
+}
+
+.menu-inside-wrapper {
+	left: -400px;
+	right: auto;
+}
+
+.is-open .menu-inside-wrapper {
+	left: 0;
+	right: auto;
+}
+
+.menu-open .site {
+	left: auto;
+	right: 0;
+}
+
+.menu-label {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 7px;
+}
+
+#fullscreen-menu-toggle .menu-label {
+	padding-left: 0;
+	margin:  0;
+	padding-right: 7px;
+}
+
+#fullscreen-menu-left-wrap .main-navigation .dropdown-toggle .icon {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#fullscreen-menu-right-wrap .secondary-navigation li a:hover,
+#fullscreen-menu-right-wrap .secondary-navigation li a:focus,
+#fullscreen-menu-left-wrap .main-navigation a:hover,
+#fullscreen-menu-left-wrap .main-navigation a:focus {
+	padding-left:  0;
+	padding-right:  4px;
+}
+
+/**
+ * 5.2 - Social Menu
+ */
+
+
+
+/**
+ * 6.0 - Widgets
+ */
+
+.widget ul,
+.widget ol {
+	margin-right: 0;
+}
+
+/* Categories widget */
+.widget_categories ul,
+.widget_archive ul {
+	text-align: left;
+}
+
+.widget_categories ul a,
+.widget_archive ul a {
+	float: right;
+}
+
+.widget li > ul,
+.widget li > ol {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+#footer-newsletter .ewnewsletter .hentry {
+	text-align: right;
+}
+
+#footer-newsletter .section-heading-wrapper {
+	text-align: right;
+}
+
+
+/**
+ * 7.0 - Content
+ */
+
+/**
+ * 7.1 - Header
+ */
+
+.site-branding {
+	text-align: right;
+	margin: 14px 0 14px auto;
+}
+
+.site-header-menu {
+	margin-left: -20px;
+	margin-right: 0;
+}
+
+
+/**
+ * 7.2 - Posts and pages
+ */
+
+.recent-blog-content .view-more {
+	text-align: right;
+}
+
+.page-links a,
+.page-links > span {
+	margin-right: auto;
+	margin-left: 0.3076923077em;
+}
+
+.page-links > .page-links-title {
+	padding-right: 0;
+	padding-left: 0.6153846154em;
+}
+
+.entry-header .entry-meta > span {
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+.entry-header .entry-meta > span:last-child {
+	margin-right: auto;
+	margin-left: 0;
+}
+
+
+.entry-meta	 > span {
+    padding-left: 12px;
+    padding-right: auto;
+}
+
+.entry-meta > span:last-child {
+	padding-left: 0;
+	padding-right: auto;
+}
+
+
+.entry-meta > span.byline:after {
+    left: 4px;
+    right: auto;
+}
+
+
+/**
+ * 7.3 - Comments
+ */
+
+.comment-author {
+	float: right;
+	margin: 0 0 1.5em 1.5em;
+}
+
+.comment-list .children li > article {
+	padding-left: 0;
+	padding-right: 2.5em;
+}
+
+.form-submit {
+	text-align: right;
+}
+
+
+/**
+ * 8.0 - Modules
+ */
+
+ .site-content .view-more {
+ 	text-align: right;
+ }
+
+/**
+ * 8.1 - Slider
+ */
+
+#feature-slider-section .owl-nav {
+	right: 0;
+	left: 14px;
+	text-align: left;
+}
+
+#feature-slider-section .owl-dots {
+    left: 14px;
+    right: auto;
+    text-align: left;
+}
+
+.custom-header-content.content-align-right .custom-header-content-wrapper {
+	margin: 0 auto 0 0;
+}
+
+
+/**
+ * 8.2 - Portfolio
+ */
+
+.portfolio-content-wrapper .hentry-inner:hover .entry-container {
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+}
+
+
+/**
+ * 8.3 - Stats
+ */
+
+.stats-content-wrapper .entry-summary,
+.stats-content-wrapper .entry-content {
+	margin-left: 0;
+	margin-right: 14px;
+}
+
+
+#scrollup {
+	left: 35px;
+	right: unset;
+}
+
+
+#sticky-playlist-section .wp-playlist .mejs-playpause-button,
+#sticky-playlist-section .wp-playlist .mejs-previous-button.mejs-previous,
+#sticky-playlist-section .wp-playlist .mejs-next-button.mejs-next,
+#sticky-playlist-section .wp-playlist .mejs-container.mejs-container .mejs-toggle-playlist,
+#sticky-playlist-section .wp-playlist .mejs-button.mejs-volume-button {
+	border-left: 0;
+	border-right: 1px solid #252525;
+}
+
+#sticky-playlist-section .wp-playlist-current-item {
+    padding-left: 21px;
+    padding-right: 0;
+}
+
+#sticky-playlist-section .wp-playlist .mejs-next-button.mejs-next {
+	border-left: 1px solid #252525;
+}
+
+#sticky-playlist-section .wp-playlist-tracks {
+	right: unset;
+	left: 0;
+}
+
+.section-content-wrapper.stats-content-wrapper .post-thumbnail,
+.section-content-wrapper.stats-content-wrapper .post-thumbnail a img {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+	margin-right: 0;
+	margin-left:  30px;
+}
+
+.events-section.single-layout .entry-meta {
+	padding-left: 28px;
+	padding-right: 0;
+}
+
+.events-section.single-layout .date-week-day {
+	margin-left: 14px;
+	margin-right: 0;
+}
+
+.hover-add-to-cart .woocommerce .product-container .button::before {
+    padding-left: 4px;
+    padding-right: 0;
+}
+
+.home .archive-post-wrap .hentry:nth-child(2n) .entry-container,
+.recent-blog-content .archive-post-wrap .hentry:nth-child(2n) .entry-container {
+	float:  left;
+}
+
+/**
+ * 9.0 - Media Queries
+ */
+
+/**
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/**
+ * 9.1 - >= 640px
+ */
+
+@media screen and (min-width: 40em) {
+	.author-info {
+		text-align: right;
+	}
+
+	.author-avatar {
+		float : right;
+		margin: 0 0 0 35px;
+	}
+
+	.footer-newsletter .has-ew-newsletter-image .ew-newsletter-content-container {
+		padding-left: 66px;
+		padding-right: 42px;
+	}
+}
+
+/**
+ * 9.2 - >= 667px
+ */
+
+@media screen and (min-width: 41.6875em) {
+    .recent-blog-content .archive-post-wrap .hentry:nth-child(2n+1) .entry-container,
+    .site-content .content-area .hentry:nth-child(2n+1) .entry-container {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .recent-blog-content .archive-post-wrap .hentry .entry-container,
+    .site-content .content-area .hentry .entry-container {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    #sticky-playlist-section .mejs-controls {
+		padding-left: 20px;
+		padding-right: 0;
+	}
+
+	#sticky-playlist-section .wp-playlist .mejs-time.mejs-duration-container {
+		padding-left: 20px;
+		padding-right: 10px;
+	}
+
+	#sticky-playlist-section .wp-playlist .mejs-time.mejs-currenttime-container {
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+
+	.stats-content-area .section-heading-wrapper {
+		text-align: right;
+	}
+
+	.playlist-content-wrapper .entry-container {
+	    padding: 0 42px 0 0;
+	}
+
+	.hero-content-wrapper .entry-container {
+	    padding: 35px 35px 35px 0px;
+	}
+
+}
+
+
+/**
+ * 9.2 - >= 768px
+ */
+
+@media screen and (min-width: 48em) {
+    .site-branding {
+		text-align: right;
+		margin: 17px 0 18px auto;
+	}
+
+	#fullscreen-menu-left-wrap + #fullscreen-menu-right-wrap {
+		border-left: none;
+		border-right: 1px solid #282828;
+	}
+
+	.section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+		margin-left:  42px;
+	}
+}
+
+
+/**
+ * 9.3 - >= 1024px
+ */
+
+@media screen and (min-width: 64em) {
+	.site-header-menu {
+	    margin-left: 0;
+	}
+
+	.site-branding {
+	    margin: 16px 20px 16px auto;
+	}
+
+	.is-open .menu-inside-wrapper {
+		left: 3.75%;
+	}
+
+	#sticky-playlist-section .mejs-controls {
+		padding-left: 25px;
+	}
+
+	#sticky-playlist-section .wp-playlist .mejs-time.mejs-duration-container {
+		padding-left: 25px;
+	}
+
+	#sticky-playlist-section .wp-playlist .mejs-time.mejs-currenttime-container {
+		padding-right: 25px;
+	}
+
+	.section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+		margin-left:  60px;
+	}
+
+	.playlist-content-wrapper .entry-container {
+	    padding: 0 56px 0 0;
+	}
+
+	.hero-content-wrapper .entry-container {
+	    padding: 35px 56px 35px 0px;
+	}
+
+	.woocommerce .product-container .button:hover::before {
+		padding-left: 7px;
+	}
+}
+
+
+/**
+ * 9.4 - >= 1200px
+ */
+
+@media screen and (min-width: 75em) {
+	.navigation-classic .main-navigation .menu-item-has-children > a > .icon,
+	.navigation-classic .main-navigation .page_item_has_children > a > .icon {
+		left: unset;
+		right: 5px;
+	}
+
+	.main-navigation .menu-item-has-children > a,
+	.main-navigation .page_item_has_children > a {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.navigation-classic .main-navigation ul li:hover > ul,
+	.navigation-classic .main-navigation ul li.focus > ul {
+	    left: 0;
+	    right: auto;
+	}
+
+	.navigation-classic .main-navigation ul ul .menu-item-has-children > a > .icon,
+	.navigation-classic .main-navigation ul ul .page_item_has_children > a > .icon {
+	    left: 14px;
+	    top: 50%;
+	    -webkit-transform: rotate(270deg);
+	    -ms-transform: rotate(270deg);
+	    transform: rotate(270deg);
+	    right: unset;
+	}
+
+	.navigation-classic .main-navigation ul ul li:hover > ul,
+	.navigation-classic .main-navigation ul ul li.focus > ul {
+		left: 100%;
+		right: auto;
+	}
+
+	.navigation-classic .site-branding {
+	    text-align: right;
+	}
+
+	.navigation-classic .main-navigation .menu-item-has-children > a {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.navigation-classic .main-navigation ul li:hover > ul,
+	.navigation-classic .main-navigation ul li.focus > ul {
+	    left: 20px;
+	    right: auto;
+	}
+
+	.navigation-classic .main-navigation ul ul li:hover > ul,
+	.navigation-classic .main-navigation ul ul li.focus > ul {
+	    left: 100%;
+	    right: auto;
+	}
+
+	.navigation-classic .main-navigation .menu-item-has-children > a > .icon,
+	.navigation-classic .main-navigation .page_item_has_children > a > .icon {
+		left: auto;
+		right: 5px;
+	}
+
+	.hero-content-wrapper .entry-container {
+	    padding: 42px 70px 42px 0px;
+	}
+}
+
+/**
+ * 9.6 - >= 1366px
+ */
+
+@media screen and (min-width: 85.375em) {
+	.playlist-content-wrapper .entry-container {
+	    padding: 0 70px 0 0;
+	}
+
+	.hero-content-wrapper .entry-container {
+	    padding: 49px 84px 49px 0px;
+	}
+}
+
+/**
+ * 9.7 - >= 1600px
+ */
+
+@media screen and (min-width: 100em) {
+
+	#sticky-playlist-section .wp-playlist .mejs-button.mejs-volume-button {
+		padding-right: 40px;
+		padding-left: 14px;
+	}
+
+	#sticky-playlist-section .mejs-controls {
+		padding-left: 40px;
+	}
+
+	#sticky-playlist-section .wp-playlist .mejs-time.mejs-duration-container {
+		padding-left: 40px;
+	}
+
+	#sticky-playlist-section .wp-playlist .mejs-time.mejs-currenttime-container {
+		padding-right: 40px;
+	}
+
+	#fullscreen-menu-toggle .menu-label {
+		padding-right: 14px;
+	}
+
+	.playlist-content-wrapper .entry-container {
+	    padding: 0 91px 0 0;
+	}
+
+	.hero-content-wrapper .entry-container {
+	    padding: 56px 120px 56px 0px;
+	}
+}
+
+/**
+ * 9.8 - >= 1920px
+ */
+
+@media screen and (min-width: 120em) {
+	.section-content-wrapper.stats-content-wrapper .hentry-inner .sub-title {
+		margin-left:  90px;
+	}
+
+}

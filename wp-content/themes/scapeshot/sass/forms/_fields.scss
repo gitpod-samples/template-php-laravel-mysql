@@ -1,0 +1,132 @@
+/**
+ * 6.0 - Forms
+ */
+
+input {
+    line-height: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 14px;
+    width: 100%;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]:-webkit-search-cancel-button,
+input[type="search"]:-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    outline: 0;
+}
+
+.post-password-form {
+    margin-bottom: 1.75em;
+}
+
+.post-password-form label {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.076923077em;
+    line-height: 1.6153846154;
+    margin-bottom: 1.75em;
+    text-transform: uppercase;
+}
+
+.post-password-form input[type="password"] {
+    margin-top: 0.4375em;
+}
+
+.post-password-form > :last-child {
+    margin-bottom: 0;
+}
+
+.search-form,
+.woocommerce-product-search {
+    clear: both;
+    position: relative;
+}
+
+input[type="search"].search-field {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-width: 1px;
+    margin: 0;
+    padding: 12px 63px 12px 14px;
+    width: 100%;
+}
+
+.search-submit {
+    background-image: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 49px;
+    text-shadow: none;
+}
+
+.search-submit:hover,
+.search-submit:focus {
+    background-image: none;
+    background-color: transparent;
+}
+
+select {
+    border: none;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    padding: 7px 10px;
+}
+
+
+

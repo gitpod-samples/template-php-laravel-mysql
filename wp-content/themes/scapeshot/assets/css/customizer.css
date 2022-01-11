@@ -1,0 +1,147 @@
+/* ==========================================================================
+   CSS for Customizer Custom Controls
+   ========================================================================== */
+.custom-sortable li {
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	color: #23282d;
+	cursor: move;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin: 0;
+	margin-top: -1px;
+	padding: 13px 15px;
+	position: relative;
+	transition: opacity .5s;
+}
+
+.custom-sortable li span {
+	color: #23282d;
+	font-size: 14px;
+	line-height: 1;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: 600;
+}
+
+.custom-sortable li a {
+	float: right;
+	margin-left: 15px;
+}
+
+.rtl .custom-sortable li a {
+	float: left;
+	margin-left: 0;
+	margin-right: 15px;
+}
+
+.custom-sortable li:hover {
+    border-color: #999;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 981px) and (min-height: 700px) {
+	.custom-sortable li {
+		margin-top: 0;
+		margin-bottom: 12px;
+	}
+}
+
+.wp-core-ui .ct-reset {
+	background-color: #b33a3a;
+	color: #ffffff;
+	border-color: #b33a3a;
+}
+
+.wp-core-ui .ct-reset-main {
+	float: right;
+	margin-right: 10px;
+	margin-top: 9px;
+}
+
+.wp-core-ui .ct-reset-section {
+	margin-top: 15px;
+}
+
+/* Toggle CSS */
+input[type=checkbox].tgl {
+  display: none;
+}
+input[type=checkbox].tgl, input[type=checkbox].tgl:after, input[type=checkbox].tgl:before, input[type=checkbox].tgl *, input[type=checkbox].tgl *:after, input[type=checkbox].tgl *:before, input[type=checkbox].tgl + .tgl-btn {
+  box-sizing: border-box;
+}
+input[type=checkbox].tgl::-moz-selection, input[type=checkbox].tgl:after::-moz-selection, input[type=checkbox].tgl:before::-moz-selection, input[type=checkbox].tgl *::-moz-selection, input[type=checkbox].tgl *:after::-moz-selection, input[type=checkbox].tgl *:before::-moz-selection, input[type=checkbox].tgl + .tgl-btn::-moz-selection {
+  background: none;
+}
+input[type=checkbox].tgl::selection, input[type=checkbox].tgl:after::selection, input[type=checkbox].tgl:before::selection, input[type=checkbox].tgl *::selection, input[type=checkbox].tgl *:after::selection, input[type=checkbox].tgl *:before::selection, input[type=checkbox].tgl + .tgl-btn::selection {
+  background: none;
+}
+input[type=checkbox].tgl + .tgl-btn {
+  outline: 0;
+  display: block;
+  width: 3.5em;
+  height: 1.75em;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+input[type=checkbox].tgl + .tgl-btn:after, input[type=checkbox].tgl + .tgl-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+input[type=checkbox].tgl + .tgl-btn:after {
+  left: 0;
+}
+input[type=checkbox].tgl + .tgl-btn:before {
+  display: none;
+}
+input[type=checkbox].tgl:checked + .tgl-btn:after {
+  left: 65%;
+}
+
+input[type=checkbox].tgl-light + .tgl-btn {
+  background: #f0f0f0;
+  border-radius: 2em;
+  padding: 4px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+input[type=checkbox].tgl-light + .tgl-btn:after {
+  border-radius: 50%;
+  background: #fff;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  width: 15px;
+  height: 15px;
+}
+input[type=checkbox].tgl-light:checked + .tgl-btn {
+  background: #9FD6AE;
+}
+
+.disabled-control-title {
+	color: #a0a5aa;
+}
+input[type=checkbox].tgl-light:checked + .tgl-btn {
+	background: #0085ba;
+}
+input[type=checkbox].tgl-light + .tgl-btn {
+  background: #a0a5aa;
+}
+input[type=checkbox].tgl-light + .tgl-btn:after {
+  background: #f7f7f7;
+}

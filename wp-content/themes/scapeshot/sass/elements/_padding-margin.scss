@@ -1,0 +1,222 @@
+/**
+ * 5.0 - Padding/Margin
+ */
+
+.menu-toggle {
+	padding: 7px;
+}
+
+.main-navigation a {
+	padding: 14px 0;
+}
+
+#header-content .wrapper {
+	padding: 20px 30px;
+}
+
+body:not(.home) .custom-header-content {
+	padding: 40px 30px 80px 30px;
+}
+
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next {
+	padding: 7px 21px;
+	width: 100%;
+}
+
+.site-content > .wrapper {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.site-content .wrapper > .sidebar {
+	margin-top: 42px;
+}
+
+.footer-widget-area {
+	padding: 28px 0;
+}
+
+.widget-column {
+	padding: 21px 30px;
+}
+
+.single .site-main .entry-header,
+.page .site-main .entry-header,
+.archive .page-header,
+.error404 .page-header,
+.search .page-header,
+.woocommerce-products-header {
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.section-heading-wrapper,
+#footer-instagram .widget-title {
+	padding: 0 30px 42px 30px;
+}
+
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags {
+	margin: 0 0 35px;
+}
+
+.author-title,
+.author-avatar,
+.author-description,
+.comments-title,
+.comment-reply-title {
+	margin: 0 0 21px;
+}
+
+.hentry,
+.widget .hentry,
+body:not(.home) .content-area .site-main {
+    margin: 0 0 35px;
+}
+
+.widget .widget-title,
+.widget .wp-block-group h2 {
+	margin: 0 0 21px;
+}
+
+.widget li > ul,
+.widget li > ol {
+	clear: both;
+	margin-top: 7px;
+	margin-left: 0;
+	width: 100%;
+}
+
+.portfolio-content-wrapper,
+.logo-slider-content-wrapper {
+	padding: 0 30px;
+}
+
+.featured-video-content-wrapper,
+.featured-content-wrapper,
+.services-content-wrapper,
+.stats-content-wrapper,
+.contact-content-wrapper,
+.team-content-wrapper,
+.pricing-content-wrapper {
+	padding: 0 15px;
+}
+
+.featured-video-content-wrapper .hentry,
+.featured-content-wrapper.layout-four .hentry,
+.services-content-wrapper.layout-four .hentry,
+.stats-content-wrapper.layout-four .hentry,
+.team-content-wrapper.layout-four .hentry,
+.featured-content-wrapper.layout-three .hentry,
+.services-content-wrapper.layout-three .hentry,
+.stats-content-wrapper.layout-three .hentry,
+.team-content-wrapper.layout-three .hentry,
+.featured-content-wrapper.layout-two .hentry,
+.services-content-wrapper.layout-two .hentry,
+.stats-content-wrapper.layout-two .hentry,
+.team-content-wrapper.layout-two .hentry,
+.pricing-content-wrapper.layout-two .hentry,
+.pricing-content-wrapper.layout-three .hentry,
+.pricing-content-wrapper.layout-four .hentry {
+	padding: 0 15px;
+}
+
+.portfolio-content-wrapper .hentry {
+	margin-bottom: 0;
+}
+
+.section-content-wrapper .post-thumbnail {
+	margin-bottom: 28px;
+}
+
+.promotion-section .post-thumbnail,
+.app-section .post-thumbnail {
+	margin-top: 28px;
+}
+
+.more-link,
+.section-content-wrapper .entry-summary,
+.section-content-wrapper .entry-content,
+.custom-header-content .site-header-text {
+    margin: 21px 0 0;
+}
+
+body:not(.home) .custom-header-content .site-header-text,
+body:not(.home) .custom-header-content .breadcrumb-area + .site-header-text {
+	margin: 14px 0 0;
+}
+
+/* New */
+.site-header-text > :last-child,
+.section-description-wrapper > :last-child,
+.footer-widget-area .widget-column > :last-child,
+.widget-area .widget .hentry:last-child,
+.widget-area .widget .hentry .entry-meta,
+.widget > :last-child,
+.widget li:last-child,
+.widget embed:last-child,
+.widget iframe:last-child,
+.widget object:last-child,
+.widget video:last-child,
+.widget_nav_menu ul,
+#colophon .widget li:last-child {
+	margin-bottom: 0;
+}
+
+.widget-area .ewfeaturedpostpageimage .featured-image {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.custom-logo {
+	margin: 0 auto;
+}
+
+.has-header-video .custom-header-content {
+	padding-bottom: 178px;
+}
+
+.page .site-main .entry-title,
+.single .site-main .entry-title {
+    margin-bottom: 28px;
+}
+
+.author-info,
+.comments-area,
+.single .site-main .entry-footer,
+.page .site-main .entry-footer {
+    margin-top: 35px;
+}
+
+.widget-area .entry-meta {
+	margin-top: 0;
+}
+
+.section-description-wrapper,
+.taxonomy-description-wrapper,
+.section-description {
+	margin-top: 14px;
+}
+
+.wp-caption .wp-caption-text {
+	padding: 14px 7px;
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	padding: 11px 28px;
+}
+
+.entry-meta .icon {
+	margin-right: 7px;
+}
+
+#testimonial-content-section .hentry {
+	padding: 0 30px;
+}

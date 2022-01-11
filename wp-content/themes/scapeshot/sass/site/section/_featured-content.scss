@@ -1,0 +1,65 @@
+/**
+ * 14.2 - Featured Content & Portfolio
+ */
+
+.featured-content-wrapper,
+.portfolio-content-wrapper,
+.pricing-content-wrapper {
+    position: relative;
+}
+
+.featured-content-wrapper a,
+.portfolio-content-wrapper a,
+.pricing-content-wrapper a {
+    text-decoration: none;
+}
+
+.featured-content-wrapper .post-thumbnail,
+.portfolio-content-wrapper .post-thumbnail,
+.pricing-content-wrapper .post-thumbnail {
+    width: 100%;
+}
+
+/*Featured Video Section*/
+
+.featured-video-section.style-two .section-content-wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+#featured-video-section .entry-title ~ .entry-meta {
+    clip: inherit;
+    height: inherit;
+    overflow: inherit;
+    position: inherit !important;
+    width: inherit;
+    word-wrap: inherit !important;
+}
+
+#featured-video-section .lightbox-enabled iframe {
+   pointer-events:none;
+}
+
+#featured-video-section a.mixed {
+    color: transparent;
+    display: block;
+}
+
+body .flashy-container .flashy-content {
+    background: transparent;
+}
+
+.featured-video-section .entry-meta {
+    line-height: 1.56;
+    margin-top: 7px;
+}
+
+.featured-video-section.style-one .entry-meta {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+
+.featured-video-section.style-two .entry-meta {
+    font-size: 16px;
+    font-size: 1rem;
+}

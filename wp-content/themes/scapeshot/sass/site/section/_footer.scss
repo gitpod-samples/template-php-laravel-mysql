@@ -1,0 +1,155 @@
+/**
+ * 12.6 - Footer
+ */
+
+ .site-footer {
+    border-top: 1px solid;
+    position: relative;
+    z-index: 1;
+ }
+
+ .footer-widget-area {
+    border-bottom: 1px solid;
+ }
+
+ .footer-widget-area .widget {
+    margin-bottom: 35px;
+ }
+
+ .site-footer .widget .widget-title,
+ .site-footer .widget .wp-block-group h2 {
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+ }
+
+.footer-widget-area .wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.footer-widget-area .widget-column {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    min-width: 0;
+}
+
+#footer-menu-section .main-navigation ul li {
+    display: inline-block;
+}
+
+#footer-menu-section .main-navigation ul li a {
+    font-weight: 400;
+    line-height: 1.75;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+#social-footer-navigation,
+.site-info {
+    margin-top: 15px;
+}
+
+#social-footer-navigation .icon {
+    top: 0;
+}
+
+#site-generator {
+    clear: both;
+    padding: 21px 20px;
+}
+
+.site-info {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+}
+
+.site-info a {
+    text-decoration: none;
+}
+
+.site-footer input[type="text"],
+.site-footer input[type="email"],
+.site-footer input[type="url"],
+.site-footer input[type="password"],
+.site-footer input[type="search"],
+.site-footer input[type="number"],
+.site-footer input[type="tel"],
+.site-footer input[type="range"],
+.site-footer input[type="date"],
+.site-footer input[type="month"],
+.site-footer input[type="week"],
+.site-footer input[type="time"],
+.site-footer input[type="datetime"],
+.site-footer input[type="datetime-local"],
+.site-footer input[type="color"],
+.site-footer textarea,
+.site-footer select {
+    border: 0;
+    box-shadow: 0 1px 0 0 #434343;
+    transition: box-shadow 0.3s;
+}
+
+.site-footer .ewnewsletter .ew-newsletter-wrap #subbutton {
+    margin: 6px 0 0 0;
+}
+
+.custom-html-widget h2 {
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.site-footer .section-heading-wrapper,
+.sidebar .section-heading-wrapper {
+    padding: inherit;
+    text-align: left;
+}
+
+.sidebar .social-links-menu,
+.footer-widget-area .social-links-menu {
+    margin-left: -10px;
+}
+
+.footer-widget-area .social-links-menu li {
+    line-height: 30px;
+}
+
+.footer-widget-area .widget_nav_menu a,
+.footer-widget-area .widget_categories a,
+.footer-widget-area .widget_archive a,
+.site-footer .widget .wp-block-group ul li a {
+    opacity: 0.6;
+}
+
+.footer-widget-area .widget_nav_menu a:hover,
+.footer-widget-area .widget_nav_menu a:focus,
+.footer-widget-area .widget_categories a:hover,
+.footer-widget-area .widget_categories a:focus,
+.footer-widget-area .widget_archive a:hover,
+.footer-widget-area .widget_archive a:focus,
+.site-footer .widget .wp-block-group ul li a:hover,
+.site-footer .widget .wp-block-group ul li a:focus {
+    opacity: 1;
+}

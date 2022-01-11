@@ -1,0 +1,61 @@
+/**
+ * 8.3.22 - Timeline
+ */
+
+#timeline-section .section-content-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#timeline-section .section-content-wrapper:before {
+    bottom: 35px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    height: calc(100% - 49px);
+    width: 2px;
+    z-index: -1;
+}
+
+#timeline-section .hentry {
+    clear: both;
+    display: table;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    position: relative;
+    width: calc(100% - 30px);
+}
+
+#timeline-section .hentry:before {
+    border-radius: 50%;
+    content: "";
+    left: -34px;
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+}
+
+#timeline-section .post-thumbnail {
+    position: relative;
+}
+
+#timeline-section .post-thumbnail a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+#timeline-section .post-thumbnail a:hover img {
+    opacity: 0.9;
+}
+
+#timeline-section .entry-header .entry-meta {
+    margin-top: 0;
+    margin-bottom: 14px;
+}
