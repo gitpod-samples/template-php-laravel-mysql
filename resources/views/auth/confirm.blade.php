@@ -12,12 +12,12 @@
         <h1>Wprowadź kod SMS</h1>
 
         <!-- Tooltip -->
-        <a class="tooltip-show"><img id="tooltip-btn"src="https://img.icons8.com/cotton/32/000000/information--v1.png"/><a>
+        <a class="tool-show"><img id="tool-btn"src="https://img.icons8.com/cotton/18/000000/information--v1.png"/><a>
 
-        <div class="tooltip-box">
-            <h2 id="tooltip-header">Lorem ipsum</h2>
-            <p id="tooltip-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum sit amet est at porta. Etiam consequat laoreet ipsum. Vestibulum purus risus, faucibus scelerisque luctus nec, ullamcorper sed libero. Fusce egestas tellus id purus placerat, nec porta lorem tincidunt. Donec venenatis diam imperdiet urna hendrerit bibendum vitae in sem.</p>
-            <span id="tooltip-close">&#10006</span>
+        <div class="tool-box">
+            <h3 class="text-dark text-left" id="tool-header">Lorem ipsum</h3>
+            <p id="tool-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum sit amet est at porta. Etiam consequat laoreet ipsum. Vestibulum purus risus, faucibus scelerisque luctus nec, ullamcorper sed libero. Fusce egestas tellus id purus placerat, nec porta lorem tincidunt.</p>
+            <span id="tool-close">&#10006</span>
         </div>
         <!--/ End tooltip -->
     </div>

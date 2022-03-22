@@ -1,9 +1,9 @@
 //Tooltip
 
-$("#tooltip-close").click(function(){
-    $(".tooltip-box").fadeOut(350);
+$("#tool-close").click(function(){
+    $(".tool-box").fadeOut(350);
   });
   
-  $(".tooltip-show").click(function(){
-    $(".tooltip-box").fadeToggle(350);
+  $(".tool-show").click(function(){
+    $(".tool-box").fadeToggle(350);
   });
