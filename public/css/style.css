@@ -1,0 +1,47 @@
+/***********************
+        Basic
+***********************/
+
+body{
+    height: 100vh;
+    background-color: #221A49;
+}
+
+.text-light{
+    color: #FFF;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #221a49;
+}
+::-webkit-scrollbar-track {
+    background: #FBC02D;
+}
+
+/***********************
+        Footer
+***********************/
+
+#footer{
+    background-color: #1a143b;
+    padding: 40px 0px;
+}
+
+.footer-link{
+    color: #FBC02D;
+}
+.footer-link:hover{
+    color: #FFF;
+}
+
+/***********************
+        CTA
+***********************/
+
+#cta{
+    background-color: #FBC02D;
+    height: 300px;
+}
