@@ -4,11 +4,12 @@
 
 @section('content')
 <!-- Hero section -->
-    <div class="row d-flex reverse-md-column">
-        <div class="col-md-6 d-flex align-items-center">
+    <div class="row d-flex align-items-center reverse-md-column" id="hero">
+        <div class="col-md-6">
             <h1 class="text-light text-center">Rozlicz swój podatek</h1>
+            <h2 class="text-light text-center">Fenixtax</h2>
         </div>
-        <div class="col-md-6 d-flex justify-content-center">
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_htdr8jgg.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
         </div>
@@ -18,7 +19,7 @@
 <!-- CTA -->
     <div class="row" id="cta">
         <div class="col-md-6 d-flex justify-content-end align-items-center">
-            <h1 class="text-light text-center">Rozlicz swój podatek teraz</h1>
+            <h1 class="text-light text-center">Rozlicz swój holenderski podatek teraz</h1>
         </div>
         <div class="col-md-6 text-end d-flex justify-content-start align-items-center">
             <a class="btn-lg btn-primary m-2" href="/login">ROZLICZ SIĘ</a><br>
@@ -28,6 +29,7 @@
 <!--/ End CTA -->
 
 <!-- About -->
+<div class="container mt-4 mb-4">
     <div class="row text-center p-3 text-light">
         <div class="col">
             <h1>O FENIXTAX</h1>
@@ -47,5 +49,6 @@
                 z niełatwej emigracji zarobkowej.</p>
         </div>
     </div>
+</div>
 <!--/ End about -->
 @endsection

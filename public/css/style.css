@@ -40,6 +40,28 @@ body{
     transition-duration: .3s;
 }
 
+#social{
+    position: fixed;
+    top: 30vh;
+    right: 0px;
+}
+
+#social-fb{
+    background-color: #FFF;
+    height: 42px;
+    padding: 2px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    cursor: pointer;
+}
+/***********************
+          Hero
+***********************/
+
+#hero{
+    height: 650px;
+}
+
 /***********************
         Footer
 ***********************/
