@@ -36,5 +36,11 @@ class HomeController extends Controller
         return view('calculator');
     }
 
+    public function confirm()
+    {
+        return view('auth.confirm');
+    }
+
+
     
 }

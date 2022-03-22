@@ -28,3 +28,5 @@ Route::get('security', [HomeController::class, 'security']);
 
 Route::get('terms', [HomeController::class, 'terms']);
 
+Route::get('confirm', [HomeController::class, 'confirm']);
+
