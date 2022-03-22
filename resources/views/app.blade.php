@@ -21,9 +21,10 @@
           <img class="img-fluid" src="img/xFENIXLOGO.webp" alt="Fenixtax" width="150">
         </div>
         <div class="col-6 text-right">
-          <a class="btn btn-warning text-dark" href="#">ZALOGUJ</a>
+          <a class="btn btn-warning text-dark" href="/login">ZALOGUJ</a>
         </div>
       </div>
+
       <!--/ End header -->
 
         @yield('content')

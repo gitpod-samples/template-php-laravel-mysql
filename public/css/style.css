@@ -21,6 +21,25 @@ body{
     background: #FBC02D;
 }
 
+.btn-secondary{
+    background-color: #FFF;
+    color: #221A49;
+    border: solid 3px #221A49;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-weight: 600;
+}
+
+.btn-primary{
+    background-color: #221A49;
+    color: #FFF;
+    border: solid 3px #221A49;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-weight: 500;
+    transition-duration: .3s;
+}
+
 /***********************
         Footer
 ***********************/
@@ -44,4 +63,14 @@ body{
 #cta{
     background-color: #FBC02D;
     height: 300px;
+}
+
+/***********************
+      Error Pages
+***********************/
+
+
+
+h1.error{
+    font-size: 12em;
 }

@@ -4,8 +4,10 @@
 
 @section('content')
 <!-- Hero section -->
-    <div class="row">
-        <div class="col-md-6">Test</div>
+    <div class="row d-flex reverse-md-column">
+        <div class="col-md-6 d-flex align-items-center">
+            <h1 class="text-light text-center">Rozlicz swój podatek</h1>
+        </div>
         <div class="col-md-6 d-flex justify-content-center">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_htdr8jgg.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
@@ -16,11 +18,11 @@
 <!-- CTA -->
     <div class="row" id="cta">
         <div class="col-md-6 d-flex justify-content-end align-items-center">
-            <h1 class="text-light">Rozlicz swój podatek teraz</h1>
+            <h1 class="text-light text-center">Rozlicz swój podatek teraz</h1>
         </div>
         <div class="col-md-6 text-end d-flex justify-content-start align-items-center">
-            <a class="btn-lg btn-primary m-2" href="#">ROZLICZ SIĘ</a>
-            <a class="btn-lg btn-secondary m-2" href="#">KALKULATOR PODATKU</a>
+            <a class="btn-lg btn-primary m-2" href="/login">ROZLICZ SIĘ</a><br>
+            <a class="btn-lg btn-secondary m-2" href="/calculator">KALKULATOR PODATKU</a>
         </div>
     </div>
 <!--/ End CTA -->
