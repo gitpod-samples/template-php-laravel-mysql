@@ -23,17 +23,17 @@ class HomeController extends Controller
 
     public function policy()
     {
-        return view('calculator');
+        return view('policy');
     }
 
     public function security()
     {
-        return view('calculator');
+        return view('security');
     }
 
     public function terms()
     {
-        return view('calculator');
+        return view('terms');
     }
 
     public function confirm()

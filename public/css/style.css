@@ -94,6 +94,10 @@ body{
     right: 10px;
     cursor: pointer;
   }
+
+  a:link{
+      color:#FBC02D;
+  }
 /***********************
           Hero
 ***********************/

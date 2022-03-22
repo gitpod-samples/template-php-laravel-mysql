@@ -1,4 +1,4 @@
-@extends('app')
+@extends('auth.app')
 
 @section('title', 'Potwierdzenie logowania')
 
