@@ -98,6 +98,13 @@ body{
   a:link{
       color:#FBC02D;
   }
+
+  .sitemap{
+      color:#FFF;
+  }
+  .sitemap:hover{
+      color:#FBC02D;
+  }
 /***********************
           Hero
 ***********************/

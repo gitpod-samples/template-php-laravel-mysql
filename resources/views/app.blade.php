@@ -90,9 +90,9 @@
     <div class="row" id="footer">
       <div class="col-md-4 text-center text-light">
         <ul class="list-unstyled">
-          <li class="p-2"><a class="text-light" href="policy">Polityka prywatności</a></li>
-          <li class="p-2"><a class="text-light" href="terms">Regulamin</a></li>
-          <li class="p-2"><a class="text-light" href="security">Bezpieczeństwo</a></li>
+          <li class="p-2"><a class="sitemap" href="policy">Polityka prywatności</a></li>
+          <li class="p-2"><a class="sitemap" href="terms">Regulamin</a></li>
+          <li class="p-2"><a class="sitemap" href="security">Bezpieczeństwo</a></li>
         </ul>
       </div>
       <div class="col-md-4 text-center">
