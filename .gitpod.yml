@@ -1,16 +1,19 @@
 tasks:
   - name: Get Composer dependencies for the first time
+    openMode: split-right
     init: >
       composer install --ignore-platform-reqs &&
       gp sync-done composer-dependencies
 
   - name: Setup Sail environment
+    openMode: split-right
     init: >
       cp .env.example .env &&
       sed -i "s#APP_URL=http://localhost#APP_URL=$(gp url 80)#g" .env &&
       sed -i "s#GITPOD_VITE_URL=#GITPOD_VITE_URL=$(gp url 5173)#g" .env
 
   - name: Execute Laravel Sail
+    openMode: split-right
     # Fix because of https://github.com/gitpod-io/gitpod/issues/16614
     before: sudo curl -o /usr/local/bin/docker-compose -fsSL https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-$(uname -m)
     command: >
@@ -21,6 +24,7 @@ tasks:
       gp sync-done sail-up
 
   - name: Install Node dependencies and run Vite
+    openMode: split-right
     command: >
       gp sync-await sail-up &&
       ./vendor/bin/sail npm install &&
