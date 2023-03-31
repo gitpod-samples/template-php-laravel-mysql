@@ -2,10 +2,6 @@
 
 This is a [Laravel with MySQL](https://laravel.com) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
-This Laravel installation is with [Laravel Sail](https://laravel.com/docs/10.x/installation#choosing-your-sail-services). IT is the most powerful, but the first boot takes a couple of minutes. This is because service images have to be pulled from Docker Hub and the base Sail container has to built.
-
-If you're looking for a light alternative, consider using [GitPod Sample for Laravel and SQLite](https://github.com/gitpod-samples/template-php-laravel-sqlite)
-
 ## Next Steps
 
 Click the button below to start a new development environment:
@@ -24,6 +20,8 @@ To get started with Laravel with MySQL on Gitpod, add a [`.gitpod.yml`](./.gitpo
 
 ## Notes & caveats
 
-* The template was generated using `curl -s "https://laravel.build/example-app" | bash` then moving the contents down to the root directory.
-* [./gitpod.yml](./.gitpod.yml) updates `APP_URL` in the `.env` with the workspace address.
-* [./gitpod.yml](./.gitpod.yml) launches the Laravel server bound to `0.0.0.0` so that the server is accessible in Gitpod. 
+
+* This Laravel installation is with [Laravel Sail](https://laravel.com/docs/10.x/installation#choosing-your-sail-services).
+  * It is the most powerful, but the first boot takes a couple of minutes.
+  * This is because service images have to be pulled from Docker Hub and the base Sail container has to built.
+* If you're looking for a light alternative, consider using [GitPod Sample for Laravel and SQLite](https://github.com/gitpod-samples/template-php-laravel-sqlite)
