@@ -14,7 +14,6 @@ tasks:
       gp sync-done sail-is-ready
 
   - name: Install Node dependencies and run Vite
-    openMode: split-right
     command: |
       echo "Waiting for Sail environment to boot up."
       gp sync-await sail-is-ready
