@@ -1,5 +1,6 @@
 tasks:
   - name: Setup Sail environment and Composer dependencies
+    openMode: split-left
     # Fix because of https://github.com/gitpod-io/gitpod/issues/16614
     before: sudo curl -o /usr/local/bin/docker-compose -fsSL https://github.com/docker/compose/releases/download/v2.16.0/docker-compose-linux-$(uname -m)
     init: |
@@ -14,6 +15,7 @@ tasks:
       gp sync-done sail-is-ready
 
   - name: Install Node dependencies and run Vite
+    openMode: split-right
     command: |
       echo "Waiting for Sail environment to boot up."
       gp sync-await sail-is-ready
