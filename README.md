@@ -21,7 +21,7 @@ To get started with Laravel with MySQL on Gitpod, add a [`.gitpod.yml`](./.gitpo
 ## Notes & caveats
 
 
-* This Laravel installation is with [Laravel Sail](https://laravel.com/docs/10.x/installation#choosing-your-sail-services).
-  * It is the most powerful, but the first boot takes a couple of minutes.
-  * This is because service images have to be pulled from Docker Hub and the base Sail container has to built.
-* If you're looking for a light alternative, consider using [GitPod Sample for Laravel and SQLite](https://github.com/gitpod-samples/template-php-laravel-sqlite)
+- This Laravel installation is with [Laravel Sail](https://laravel.com/docs/10.x/installation#choosing-your-sail-services).
+  - It is the most powerful, but the first boot takes a couple of minutes.
+  - This is because service images have to be pulled from Docker Hub and the base Sail container has to built.
+- If you're looking for a light alternative, consider using [Gitpod Sample for Laravel and SQLite](https://github.com/gitpod-samples/template-php-laravel-sqlite)
