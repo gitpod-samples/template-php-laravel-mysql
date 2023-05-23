@@ -1,0 +1,15 @@
+{
+    "name": "BHUDiL",
+    "short_name": "BHUDiL",
+    "icons": [
+        {
+            "src": "/images/favicons/favicon2.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
+

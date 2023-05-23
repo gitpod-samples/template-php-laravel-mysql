@@ -1,0 +1,53 @@
+@tailwind components;
+
+@layer components {
+    .flex-center,
+    .flexCenter {
+        @apply flex justify-center items-center;
+    }
+    .flex-start,
+    .flexStart {
+        @apply flex justify-center items-start;
+    }
+    .boxWidth {
+        @apply hxl:max-w-[1280px] w-full;
+    }
+    .heading2 {
+        @apply  font-sans font-extrabold hxs:text-[48px] text-[40px] text-white hxs:leading-tight leading-tighter   w-full;
+    }
+    .paragraph {
+        @apply font-sans font-normal text-dimWhite text-[18px] leading-[30.8px];
+    }
+    .paddingX {
+        @apply hsm:px-16 px-6;
+    }
+    .paddingY {
+        @apply hsm:py-16 py-6;
+    }
+    .padding {
+        @apply hsm:px-16 px-6 hsm:py-12 py-4;
+    }
+    .marginX {
+        @apply hsm:mx-16 mx-6;
+    }
+    .marginY {
+        @apply hsm:my-16 my-6;
+    }
+    /* Section */
+    .sectionHome {
+        @apply flex hmd:flex-row flex-col hsm:py-16 py-6 mx-auto;
+    }
+    .sectionReverse {
+        @apply flex hmd:flex-row flex-col-reverse hsm:py-16 py-6 mx-auto;
+    }
+    .sectionImgReverse {
+        @apply flex-1 flex justify-center items-center hmd:mr-10 mr-0 hmd:mt-0 mt-10 relative;
+    }
+    .sectionImg {
+        @apply flex-1 flex justify-center items-center hmd:ml-10 ml-0 hmd:mt-0 mt-10 relative;
+    }
+    .sectionInfo {
+        @apply flex-1 flex justify-center items-start flex-col;
+    }
+
+}
