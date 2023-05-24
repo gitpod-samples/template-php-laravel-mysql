@@ -34,10 +34,27 @@ ports:
 # Configure vscode
 vscode:
   extensions:
-    - bmewburn.vscode-intelephense-client
-    - ms-azuretools.vscode-docker
-    - ecmel.vscode-html-css
-    - MehediDracula.php-namespace-resolver
-    - Equinusocio.vsc-community-material-theme
-    - EditorConfig.EditorConfig
-    - streetsidesoftware.code-spell-checker
+      - "mikestead.dotenv"
+      - "amiralizadeh9480.laravel-extra-intellisense"
+      - "onecentlin.laravel5-snippets"
+      - "onecentlin.laravel-blade"
+      - "formulahendry.auto-close-tag"
+      - "formulahendry.auto-complete-tag"
+      - "formulahendry.auto-rename-tag"
+      - "mrmlnc.vscode-duplicate"
+      - "EditorConfig.EditorConfig"
+      - "codingyu.laravel-goto-view"
+      - "ms-vscode.makefile-tools"
+      - "christian-kohler.npm-intellisense"
+      - "junstyle.php-cs-fixer"
+      - "neilbrayfield.php-docblocker"
+      - "bmewburn.vscode-intelephense-client"
+      - "csstools.postcss"
+      - "esbenp.prettier-vscode"
+      - "bradlc.vscode-tailwindcss"
+      - "vscode-icons-team.vscode-icons"
+      - "hollowtree.vue-snippets"
+      - "Vue.volar"
+      - "ms-azuretools.vscode-docker"
+      - "xdebug.php-debug"
+      - "zobo.php-intellisense"
