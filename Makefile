@@ -1,21 +1,26 @@
-install:
-	@make build
-	@make up
-	composer install
-	cp .env.example .env
-	php artisan key:generate
-	php artisan storage:link
-	chmod -R 777 storage bootstrap/cache
-	@make fresh
+# install:
+# 	@make build
+# 	@make up
+# 	composer install
+# 	cp .env.example .env
+# 	php artisan key:generate
+# 	php artisan storage:link
+# 	chmod -R 777 storage bootstrap/cache
+# 	@make fresh
 up:
 	./vendor/bin/sail up -d
 build:
 	./vendor/bin/sail build
 build-f:
 	./vendor/bin/sail build --no-cache --force-rm
-remake:
-	@make destroy
-	@make install
+npm:
+	./vendor/bin/sail npm install
+	./vendor/bin/sail npm run dev
+npm-dev:
+	./vendor/bin/sail npm run dev
+# remake:
+# 	@make destroy
+# 	@make install
 stop:
 	./vendor/bin/sail stop
 down:
@@ -45,10 +50,10 @@ log-db:
 	./vendor/bin/sail logs db
 log-db-watch:
 	./vendor/bin/sail logs --follow db
-web:
-	./vendor/bin/sail exec web bash
-app:
-	bash
+# web:
+# 	./vendor/bin/sail exec web bash
+# app:
+# 	bash
 migrate:
 	./vendor/bin/sail php artisan migrate
 fresh:
@@ -78,30 +83,27 @@ cache-clear:
 	@make optimize-clear
 	./vendor/bin/sail php artisan event:clear
     ./vendor/bin/sail php artisan view:clear
-db:
-	docker compose exec db bash
-sql:
-	docker compose exec db bash -c 'mysql -u $$MYSQL_USER -p$$MYSQL_PASSWORD $$MYSQL_DATABASE'
-redis:
-	docker compose exec redis redis-cli
+# db:
+# 	docker compose exec db bash
+# sql:
+# 	docker compose exec db bash -c 'mysql -u $$MYSQL_USER -p$$MYSQL_PASSWORD $$MYSQL_DATABASE'
+# redis:
+# 	docker compose exec redis redis-cli
 ide-helper:
 	./vendor/bin/sail php artisan clear-compiled
 	./vendor/bin/sail php artisan ide-helper:generate
 	./vendor/bin/sail php artisan ide-helper:meta
 	./vendor/bin/sail php artisan ide-helper:models --nowrite
 
-breez:
-	./vendor/bin/sail composer require laravel/breeze --dev
-breez-install:
-	php artisan breeze:install vue --dark
+# breez:
+# 	./vendor/bin/sail composer require laravel/breeze --dev
+# breez-install:
+# 	php artisan breeze:install vue --dark
 
-sail-up:
-	./vendor/bin/sail up -d
-sail-stop:
-	./vendor/bin/sail stop
-npm:
-	./vendor/bin/sail npm install
-	./vendor/bin/sail npm run dev
+# sail-up:
+# 	./vendor/bin/sail up -d
+# sail-stop:
+# 	./vendor/bin/sail stop
 
 # sail-cmd:
 #     alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
