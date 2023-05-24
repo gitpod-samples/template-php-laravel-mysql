@@ -66,9 +66,44 @@
                         </path>
                     </g>
                 </svg>
-                <input class="ml-3 h-full w-full pt-0 text-xs dark:text-grey-600 dark:placeholder:text-grey-600" id="q"
+                <input class=" focus:border-0 focus:ring-offset-0 ml-3 h-full w-full pt-0 text-xs dark:text-grey-600 dark:placeholder:text-grey-600" id="q"
                     name="q" placeholder="Begin your search...">
             </label>
         </form>
     </div>
 </template>
+<style scoped>
+.select-wrap {
+    position: relative
+}
+
+.select-wrap select {
+    -webkit-appearance: none;
+    height: 40px;
+    padding-right: 50px;
+    background-image: none;
+}
+
+.select-wrap svg {
+    pointer-events: none;
+    position: absolute;
+    right: 20px;
+    top: 13px
+}
+.select-wrap option{
+    @apply  text-grey-800 dark:bg-blue-1000 dark:text-grey-600;
+    @layer bg-grey-400
+}
+input[name=q]:focus::-moz-placeholder {
+    opacity: .1
+}
+
+input[name=q]:focus:-ms-input-placeholder {
+    opacity: .1
+}
+
+input[name=q]:focus::placeholder {
+    opacity: .1
+}
+
+</style>

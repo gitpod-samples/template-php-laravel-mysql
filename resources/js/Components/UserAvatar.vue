@@ -44,8 +44,8 @@ const username = computed(() => props.username);
             :alt="username"
             class="rounded-full block h-auto w-full max-w-full bg-gray-100 dark:bg-slate-800"
         />
-        <div v-else class="inline-flex h-auto space-x-2 align-middle">
-            <span v-if="displayName" class="self-center hidden sm:block whitespace-nowrap">
+        <div v-else class="inline-flex h-auto  align-middle">
+            <span v-if="displayName" class="self-center hidden mr-1 sm:block whitespace-nowrap">
                 {{ props.username }}
             </span>
             <div :class="avatarSize"
