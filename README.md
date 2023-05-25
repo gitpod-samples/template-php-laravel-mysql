@@ -25,3 +25,53 @@ To get started with Laravel with MySQL on Gitpod, add a [`.gitpod.yml`](./.gitpo
   - It is the most powerful, but the first boot takes a couple of minutes.
   - This is because service images have to be pulled from Docker Hub and the base Sail container has to built.
 - If you're looking for a light alternative, consider using [Gitpod Sample for Laravel and SQLite](https://github.com/gitpod-samples/template-php-laravel-sqlite)
+
+## VITE HMR 
+
+@todo - explain how this shit doesnt work.
+
+1. install mkcert binary manually. 
+```bash
+curl -JLO "https://dl.filippo.io/mkcert/latest?for=linux/amd64"
+chmod +x mkcert-v*-linux-amd64
+sudo mv mkcert-v*-linux-amd64 mkcert
+```
+
+2. from workspace shell, login to container as root 
+
+`sail root-shell`
+
+3. as root in container - install local CA 
+
+`bin/mkcert -install`
+
+4. generate certs 
+
+As root on container:
+```bash
+[host]> sail root-shell
+# 
+# create dir for certs
+[container]> mkdir -p /home/sail/mkcert
+[container]> chmod -R ug+rw /home/sail/mkcert
+```
+
+```bash
+# on the host
+# generate the vite url for the workspace, save the output
+echo "5173-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}"
+# e.g.  5173-gitpodsampl-templatephp-s8213wyqqzn.ws-us98.gitpod.io
+
+
+sail root-shell # to get root bash on container
+
+# as root on container:
+# install local CA
+bin/mkcert -install \
+    -key-file "/home/sail/mkcert/dev.pem" \
+    -cert-file "/home/sail/mkcert/cert.pem" \
+    localhost  127.0.0.1 \
+    <your vite url from above> 
+```
+# also as root on container
+chown -Rf sail:sail /home/sail/mkcert

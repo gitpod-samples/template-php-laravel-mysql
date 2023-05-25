@@ -20,7 +20,7 @@ tasks:
       echo "Waiting for Sail environment to boot up."
       gp sync-await sail-is-ready
       ./vendor/bin/sail npm install
-      ./vendor/bin/sail npm run dev
+      # ./vendor/bin/sail npm run dev
 
 ports:
   - port: 3306
