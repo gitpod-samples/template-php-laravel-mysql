@@ -1,7 +1,8 @@
 import {defineConfig} from 'vite'
 import laravel from 'laravel-vite-plugin'
+import dotenv from 'dotenv'
 
-require('dotenv').config()
+dotenv.config()
 
 const extendedViteDevServerOptions = {}
 
