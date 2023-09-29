@@ -20,6 +20,8 @@ To get started with Laravel with MySQL on Gitpod, add a [`.gitpod.yml`](./.gitpo
 
 ## Notes & caveats
 
+The database does not get automatically migrated. Once started, we should run `php artisan migrate`, after the DB service is ready. It should be a few moments.
+
 If you want to try a Laravel Breeze scaffolding, then you should be aware that files will be changed, and you will to revert some content.
 
 You will have to do these steps:
